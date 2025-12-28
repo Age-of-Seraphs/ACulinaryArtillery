@@ -4,7 +4,7 @@
 	"variantgroups": [
 		{
 			"code": "material",
-			"states": [ "generic" ]
+			"states": [ "green", "blue", "brown", "pink", "plain", "quartz", "red", "smoky", "vintage", "violet", "yellow" ]
 		}
 	],
 	"storageFlags": 257,
@@ -25,13 +25,13 @@
 			"name": "GroundStorable",
 			"properties": {
 				"layout": "Stacking",
-				"ctrlKey": false,
+				"ctrlKey": true,
 				"placeRemoveSound": "game:sounds/block/loosestone*",
-				"stackingModel": "item/cork-pile-original",
+				"stackingModel": "item/corkpile-glass",
 				"upSolid": false,
-				"modelItemsToStackSizeRatio": 2,
+				"modelItemsToStackSizeRatio": 0.125,
 				"stackingCapacity": 64,
-				"transferQuantity": 1,
+				"transferQuantity": 2,
 				"bulkTransferQuantity": 16,
 				"collisionBox": {
 					"x1": 0.25,
@@ -45,8 +45,14 @@
 			}
 		}
 	],
-	"shape": { "base": "item/cork" },
-	"texture": { "base": "game:item/utility/map" },
+	"shape": { "base": "item/corkglass" },
+	"textures": {
+		"cork": { "base": "game:block/glass/{material}" },
+		"corkdark": {
+			"base": "game:block/glass/{material}",
+			"overlays": [ "item/corkdark" ]
+		}
+	},
 	"creativeinventory": {
 		"general": [ "*" ],
 		"items": [ "*" ],

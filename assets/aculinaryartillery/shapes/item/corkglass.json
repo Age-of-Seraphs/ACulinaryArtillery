@@ -1,0 +1,48 @@
+{
+	"editor": {
+		"collapsedPaths": "Root/glassBase/glassLid1",
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+		"corkdark": [16,16],
+		"cork": [16,16]
+	},
+	"textures": {
+	},
+	"elements": [
+		{
+			"name": "cork1",
+			"from": [ 11.5, -3.0, 8.5 ],
+			"to": [ 12.5, -2.0, 9.5 ],
+			"rotationOrigin": [ 11.0, -3.0, 1.0 ],
+			"rotationX": -22.5,
+			"rotationY": -22.5,
+			"rotationZ": 45.0,
+			"faces": {
+				"north": { "texture": "#corkdark", "uv": [ 10.0, 3.5, 11.0, 4.5 ] },
+				"east": { "texture": "#corkdark", "uv": [ 11.5, 3.5, 12.5, 4.5 ] },
+				"south": { "texture": "#corkdark", "uv": [ 10.5, 3.5, 11.5, 4.5 ] },
+				"west": { "texture": "#corkdark", "uv": [ 11.5, 3.5, 12.5, 4.5 ] },
+				"down": { "texture": "#corkdark", "uv": [ 11.5, 7.0, 12.5, 8.0 ] }
+			},
+			"children": [
+				{
+					"name": "cork2",
+					"from": [ -0.25, 0.95, -0.25 ],
+					"to": [ 1.25, 1.7, 1.25 ],
+					"rotationOrigin": [ 0.0, 1.0, 0.0 ],
+					"faces": {
+						"north": { "texture": "#corkdark", "uv": [ 10.0, 0.5, 11.5, 1.25 ], "autoUv": false },
+						"east": { "texture": "#corkdark", "uv": [ 11.0, 0.5, 12.5, 1.25 ], "autoUv": false },
+						"south": { "texture": "#corkdark", "uv": [ 11.0, 0.5, 12.5, 1.25 ], "autoUv": false },
+						"west": { "texture": "#corkdark", "uv": [ 12.0, 0.5, 13.5, 1.25 ], "autoUv": false },
+						"up": { "texture": "#cork", "uv": [ 10.5, 5.0, 12.0, 6.5 ] },
+						"down": { "texture": "#corkdark", "uv": [ 11.0, 3.0, 12.5, 4.5 ] }
+					}
+				}
+			]
+		}
+	]}

@@ -1,0 +1,2471 @@
+{
+	"editor": {
+		"collapsedPaths": "Root/base/cork18,Root/base/cork17,Root/base/cork9,Root/base/cork19,Root/base/cork14,Root/base/cork58,Root/base/cork13,Root/base/cork57,Root/base/cork16,Root/base/cork15,Root/base/cork59,Root/base/cork10,Root/base/cork54,Root/base/cork53,Root/base/cork12,Root/base/cork56,Root/base/cork11,Root/base/cork55,Root/base/cork50,Root/base/cork52,Root/base/cork51,Root/base/cork47,Root/base/cork46,Root/base/cork49,Root/base/cork48,Root/base/cork43,Root/base/cork42,Root/base/cork45,Root/base/cork44,Root/base/cork41,Root/base/cork40,Root/base/cork1,Root/base/cork2,Root/base/cork4,Root/base/cork39,Root/base/cork36,Root/base/cork35,Root/base/cork38,Root/base/cork37,Root/base/cork32,Root/base/cork31,Root/base/cork34,Root/base/cork33,Root/base/cork30,Root/cork1,Root/base/cork29,Root/base/cork28,Root/base/cork25,Root/base/cork24,Root/base/cork27,Root/base/cork26,Root/base/cork21,Root/base/cork20,Root/base/cork64,Root/base/cork23,Root/base/cork22,Root/base/cork60,Root/base/cork63,Root/base/cork62",
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+		"map": [16, 16]
+	},
+	"textures": {
+		"map": "game:item/utility/map"
+	},
+	"elements": [
+		{
+			"name": "base",
+			"from": [0, 0, -0.5],
+			"to": [0, 0, -0.5],
+			"rotationOrigin": [0, 0, -0.5],
+			"children": [
+				{
+					"name": "cork1",
+					"from": [0.5, 0.7, 0.5],
+					"to": [0.5, 0.7, 0.5],
+					"rotationOrigin": [0.5, 0.7, 0.5],
+					"rotationX": -45,
+					"rotationY": -22.5,
+					"rotationZ": 45,
+					"children": [
+						{
+							"name": "corkpart1",
+							"from": [-0.75, 0.95, -0.75],
+							"to": [0.75, 1.7, 0.75],
+							"rotationOrigin": [-0.5, 1, -0.5],
+							"faces": {
+								"north": {"texture": "#map", "uv": [10, 0.5, 11.5, 1.25], "autoUv": false, "snapUv": false},
+								"east": {"texture": "#map", "uv": [11, 0.5, 12.5, 1.25], "autoUv": false, "snapUv": false},
+								"south": {"texture": "#map", "uv": [11, 0.5, 12.5, 1.25], "autoUv": false, "snapUv": false},
+								"west": {"texture": "#map", "uv": [12, 0.5, 13.5, 1.25], "autoUv": false, "snapUv": false},
+								"up": {"texture": "#map", "uv": [10.5, 5, 12, 6.5], "autoUv": false, "snapUv": false},
+								"down": {"texture": "#map", "uv": [11, 3, 12.5, 4.5], "autoUv": false, "snapUv": false}
+							}
+						},
+						{
+							"name": "cork1_geo",
+							"from": [-0.5, 0, -0.5],
+							"to": [0.5, 1, 0.5],
+							"rotationOrigin": [-0.5, 0, -0.5],
+							"faces": {
+								"north": {"texture": "#map", "uv": [10, 3.5, 11, 4.5], "autoUv": false, "snapUv": false},
+								"east": {"texture": "#map", "uv": [11.5, 3.5, 12.5, 4.5], "autoUv": false, "snapUv": false},
+								"south": {"texture": "#map", "uv": [10.5, 3.5, 11.5, 4.5], "autoUv": false, "snapUv": false},
+								"west": {"texture": "#map", "uv": [11.5, 3.5, 12.5, 4.5], "autoUv": false, "snapUv": false},
+								"down": {"texture": "#map", "uv": [11.5, 7, 12.5, 8], "autoUv": false, "snapUv": false}
+							},
+							"renderPass": 3
+						}
+					]
+				},
+				{
+					"name": "cork2",
+					"from": [1, 0.7, 1],
+					"to": [1, 0.7, 1],
+					"rotationOrigin": [1, 0.7, 1],
+					"rotationX": -90,
+					"rotationZ": -45,
+					"children": [
+						{
+							"name": "corkpart2",
+							"from": [-0.75, 0.95, -0.75],
+							"to": [0.75, 1.7, 0.75],
+							"rotationOrigin": [-0.5, 1, -0.5],
+							"faces": {
+								"north": {"texture": "#map", "uv": [10, 0.5, 11.5, 1.25], "autoUv": false, "snapUv": false},
+								"east": {"texture": "#map", "uv": [11, 0.5, 12.5, 1.25], "autoUv": false, "snapUv": false},
+								"south": {"texture": "#map", "uv": [11, 0.5, 12.5, 1.25], "autoUv": false, "snapUv": false},
+								"west": {"texture": "#map", "uv": [12, 0.5, 13.5, 1.25], "autoUv": false, "snapUv": false},
+								"up": {"texture": "#map", "uv": [10.5, 5, 12, 6.5], "autoUv": false, "snapUv": false},
+								"down": {"texture": "#map", "uv": [11, 3, 12.5, 4.5], "autoUv": false, "snapUv": false}
+							}
+						},
+						{
+							"name": "cork2_geo",
+							"from": [-0.5, 0, -0.5],
+							"to": [0.5, 1, 0.5],
+							"rotationOrigin": [-0.5, 0, -0.5],
+							"faces": {
+								"north": {"texture": "#map", "uv": [10, 3.5, 11, 4.5], "autoUv": false, "snapUv": false},
+								"east": {"texture": "#map", "uv": [11.5, 3.5, 12.5, 4.5], "autoUv": false, "snapUv": false},
+								"south": {"texture": "#map", "uv": [10.5, 3.5, 11.5, 4.5], "autoUv": false, "snapUv": false},
+								"west": {"texture": "#map", "uv": [11.5, 3.5, 12.5, 4.5], "autoUv": false, "snapUv": false},
+								"down": {"texture": "#map", "uv": [11.5, 7, 12.5, 8], "autoUv": false, "snapUv": false}
+							},
+							"renderPass": 3
+						}
+					]
+				},
+				{
+					"name": "cork3",
+					"from": [0.5, 0.7, 1.5],
+					"to": [0.5, 0.7, 1.5],
+					"rotationOrigin": [0.5, 0.7, 1.5],
+					"rotationZ": 90,
+					"children": [
+						{
+							"name": "corkpart3",
+							"from": [-0.75, 0.95, -0.75],
+							"to": [0.75, 1.7, 0.75],
+							"rotationOrigin": [-0.5, 1, -0.5],
+							"faces": {
+								"north": {"texture": "#map", "uv": [10, 0.5, 11.5, 1.25], "autoUv": false, "snapUv": false},
+								"east": {"texture": "#map", "uv": [11, 0.5, 12.5, 1.25], "autoUv": false, "snapUv": false},
+								"south": {"texture": "#map", "uv": [11, 0.5, 12.5, 1.25], "autoUv": false, "snapUv": false},
+								"west": {"texture": "#map", "uv": [12, 0.5, 13.5, 1.25], "autoUv": false, "snapUv": false},
+								"up": {"texture": "#map", "uv": [10.5, 5, 12, 6.5], "autoUv": false, "snapUv": false},
+								"down": {"texture": "#map", "uv": [11, 3, 12.5, 4.5], "autoUv": false, "snapUv": false}
+							}
+						},
+						{
+							"name": "cork3_geo",
+							"from": [-0.5, 0, -0.5],
+							"to": [0.5, 1, 0.5],
+							"rotationOrigin": [-0.5, 0, -0.5],
+							"faces": {
+								"north": {"texture": "#map", "uv": [10, 3.5, 11, 4.5], "autoUv": false, "snapUv": false},
+								"east": {"texture": "#map", "uv": [11.5, 3.5, 12.5, 4.5], "autoUv": false, "snapUv": false},
+								"south": {"texture": "#map", "uv": [10.5, 3.5, 11.5, 4.5], "autoUv": false, "snapUv": false},
+								"west": {"texture": "#map", "uv": [11.5, 3.5, 12.5, 4.5], "autoUv": false, "snapUv": false},
+								"down": {"texture": "#map", "uv": [11.5, 7, 12.5, 8], "autoUv": false, "snapUv": false}
+							},
+							"renderPass": 3
+						}
+					]
+				},
+				{
+					"name": "cork4",
+					"from": [1.2, 0.7, 1.7],
+					"to": [1.2, 0.7, 1.7],
+					"rotationOrigin": [1.2, 0.7, 1.7],
+					"rotationX": -67.5,
+					"rotationY": -45,
+					"rotationZ": -135,
+					"children": [
+						{
+							"name": "corkpart4",
+							"from": [-0.75, 0.95, -0.75],
+							"to": [0.75, 1.7, 0.75],
+							"rotationOrigin": [-0.5, 1, -0.5],
+							"faces": {
+								"north": {"texture": "#map", "uv": [10, 0.5, 11.5, 1.25], "autoUv": false, "snapUv": false},
+								"east": {"texture": "#map", "uv": [11, 0.5, 12.5, 1.25], "autoUv": false, "snapUv": false},
+								"south": {"texture": "#map", "uv": [11, 0.5, 12.5, 1.25], "autoUv": false, "snapUv": false},
+								"west": {"texture": "#map", "uv": [12, 0.5, 13.5, 1.25], "autoUv": false, "snapUv": false},
+								"up": {"texture": "#map", "uv": [10.5, 5, 12, 6.5], "autoUv": false, "snapUv": false},
+								"down": {"texture": "#map", "uv": [11, 3, 12.5, 4.5], "autoUv": false, "snapUv": false}
+							}
+						},
+						{
+							"name": "cork4_geo",
+							"from": [-0.5, 0, -0.5],
+							"to": [0.5, 1, 0.5],
+							"rotationOrigin": [-0.5, 0, -0.5],
+							"faces": {
+								"north": {"texture": "#map", "uv": [10, 3.5, 11, 4.5], "autoUv": false, "snapUv": false},
+								"east": {"texture": "#map", "uv": [11.5, 3.5, 12.5, 4.5], "autoUv": false, "snapUv": false},
+								"south": {"texture": "#map", "uv": [10.5, 3.5, 11.5, 4.5], "autoUv": false, "snapUv": false},
+								"west": {"texture": "#map", "uv": [11.5, 3.5, 12.5, 4.5], "autoUv": false, "snapUv": false},
+								"down": {"texture": "#map", "uv": [11.5, 7, 12.5, 8], "autoUv": false, "snapUv": false}
+							},
+							"renderPass": 3
+						}
+					]
+				},
+				{
+					"name": "cork5",
+					"from": [1.4, 0.7, -2.7],
+					"to": [1.4, 0.7, -2.7],
+					"rotationOrigin": [1.4, 0.7, -2.7],
+					"rotationX": -67.5,
+					"rotationY": -135,
+					"rotationZ": -135,
+					"children": [
+						{
+							"name": "corkpart5",
+							"from": [-0.75, 0.95, -0.75],
+							"to": [0.75, 1.7, 0.75],
+							"rotationOrigin": [-0.5, 1, -0.5],
+							"faces": {
+								"north": {"texture": "#map", "uv": [10, 0.5, 11.5, 1.25], "autoUv": false, "snapUv": false},
+								"east": {"texture": "#map", "uv": [11, 0.5, 12.5, 1.25], "autoUv": false, "snapUv": false},
+								"south": {"texture": "#map", "uv": [11, 0.5, 12.5, 1.25], "autoUv": false, "snapUv": false},
+								"west": {"texture": "#map", "uv": [12, 0.5, 13.5, 1.25], "autoUv": false, "snapUv": false},
+								"up": {"texture": "#map", "uv": [10.5, 5, 12, 6.5], "autoUv": false, "snapUv": false},
+								"down": {"texture": "#map", "uv": [11, 3, 12.5, 4.5], "autoUv": false, "snapUv": false}
+							}
+						},
+						{
+							"name": "cork5_geo",
+							"from": [-0.5, 0, -0.5],
+							"to": [0.5, 1, 0.5],
+							"rotationOrigin": [-0.5, 0, -0.5],
+							"faces": {
+								"north": {"texture": "#map", "uv": [10, 3.5, 11, 4.5], "autoUv": false, "snapUv": false},
+								"east": {"texture": "#map", "uv": [11.5, 3.5, 12.5, 4.5], "autoUv": false, "snapUv": false},
+								"south": {"texture": "#map", "uv": [10.5, 3.5, 11.5, 4.5], "autoUv": false, "snapUv": false},
+								"west": {"texture": "#map", "uv": [11.5, 3.5, 12.5, 4.5], "autoUv": false, "snapUv": false},
+								"down": {"texture": "#map", "uv": [11.5, 7, 12.5, 8], "autoUv": false, "snapUv": false}
+							},
+							"renderPass": 3
+						}
+					]
+				},
+				{
+					"name": "cork6",
+					"from": [-2.9, 0.6, -0.2],
+					"to": [-2.9, 0.6, -0.2],
+					"rotationOrigin": [-2.9, 0.6, -0.2],
+					"rotationX": -90,
+					"rotationY": -22.5,
+					"rotationZ": -135,
+					"children": [
+						{
+							"name": "corkpart6",
+							"from": [-0.75, 0.95, -0.75],
+							"to": [0.75, 1.7, 0.75],
+							"rotationOrigin": [-0.5, 1, -0.5],
+							"faces": {
+								"north": {"texture": "#map", "uv": [10, 0.5, 11.5, 1.25], "autoUv": false, "snapUv": false},
+								"east": {"texture": "#map", "uv": [11, 0.5, 12.5, 1.25], "autoUv": false, "snapUv": false},
+								"south": {"texture": "#map", "uv": [11, 0.5, 12.5, 1.25], "autoUv": false, "snapUv": false},
+								"west": {"texture": "#map", "uv": [12, 0.5, 13.5, 1.25], "autoUv": false, "snapUv": false},
+								"up": {"texture": "#map", "uv": [10.5, 5, 12, 6.5], "autoUv": false, "snapUv": false},
+								"down": {"texture": "#map", "uv": [11, 3, 12.5, 4.5], "autoUv": false, "snapUv": false}
+							}
+						},
+						{
+							"name": "cork6_geo",
+							"from": [-0.5, 0, -0.5],
+							"to": [0.5, 1, 0.5],
+							"rotationOrigin": [-0.5, 0, -0.5],
+							"faces": {
+								"north": {"texture": "#map", "uv": [10, 3.5, 11, 4.5], "autoUv": false, "snapUv": false},
+								"east": {"texture": "#map", "uv": [11.5, 3.5, 12.5, 4.5], "autoUv": false, "snapUv": false},
+								"south": {"texture": "#map", "uv": [10.5, 3.5, 11.5, 4.5], "autoUv": false, "snapUv": false},
+								"west": {"texture": "#map", "uv": [11.5, 3.5, 12.5, 4.5], "autoUv": false, "snapUv": false},
+								"down": {"texture": "#map", "uv": [11.5, 7, 12.5, 8], "autoUv": false, "snapUv": false}
+							},
+							"renderPass": 3
+						}
+					]
+				},
+				{
+					"name": "cork7",
+					"from": [-1.8, 1.7, -1.5],
+					"to": [-1.8, 1.7, -1.5],
+					"rotationOrigin": [-1.8, 1.7, -1.5],
+					"rotationX": -180,
+					"children": [
+						{
+							"name": "corkpart7",
+							"from": [-0.75, 0.95, -0.75],
+							"to": [0.75, 1.7, 0.75],
+							"rotationOrigin": [-0.5, 1, -0.5],
+							"faces": {
+								"north": {"texture": "#map", "uv": [10, 0.5, 11.5, 1.25], "autoUv": false, "snapUv": false},
+								"east": {"texture": "#map", "uv": [11, 0.5, 12.5, 1.25], "autoUv": false, "snapUv": false},
+								"south": {"texture": "#map", "uv": [11, 0.5, 12.5, 1.25], "autoUv": false, "snapUv": false},
+								"west": {"texture": "#map", "uv": [12, 0.5, 13.5, 1.25], "autoUv": false, "snapUv": false},
+								"up": {"texture": "#map", "uv": [10.5, 5, 12, 6.5], "autoUv": false, "snapUv": false},
+								"down": {"texture": "#map", "uv": [11, 3, 12.5, 4.5], "autoUv": false, "snapUv": false}
+							}
+						},
+						{
+							"name": "cork7_geo",
+							"from": [-0.5, 0, -0.5],
+							"to": [0.5, 1, 0.5],
+							"rotationOrigin": [-0.5, 0, -0.5],
+							"faces": {
+								"north": {"texture": "#map", "uv": [10, 3.5, 11, 4.5], "autoUv": false, "snapUv": false},
+								"east": {"texture": "#map", "uv": [11.5, 3.5, 12.5, 4.5], "autoUv": false, "snapUv": false},
+								"south": {"texture": "#map", "uv": [10.5, 3.5, 11.5, 4.5], "autoUv": false, "snapUv": false},
+								"west": {"texture": "#map", "uv": [11.5, 3.5, 12.5, 4.5], "autoUv": false, "snapUv": false},
+								"down": {"texture": "#map", "uv": [11.5, 7, 12.5, 8], "autoUv": false, "snapUv": false}
+							},
+							"renderPass": 3
+						}
+					]
+				},
+				{
+					"name": "cork8",
+					"from": [-1, 0.4, 3.5],
+					"to": [-1, 0.4, 3.5],
+					"rotationOrigin": [-1, 0.4, 3.5],
+					"rotationX": -90,
+					"rotationY": -22.5,
+					"rotationZ": -67.5,
+					"children": [
+						{
+							"name": "corkpart8",
+							"from": [-0.75, 0.95, -0.75],
+							"to": [0.75, 1.7, 0.75],
+							"rotationOrigin": [-0.5, 1, -0.5],
+							"faces": {
+								"north": {"texture": "#map", "uv": [10, 0.5, 11.5, 1.25], "autoUv": false, "snapUv": false},
+								"east": {"texture": "#map", "uv": [11, 0.5, 12.5, 1.25], "autoUv": false, "snapUv": false},
+								"south": {"texture": "#map", "uv": [11, 0.5, 12.5, 1.25], "autoUv": false, "snapUv": false},
+								"west": {"texture": "#map", "uv": [12, 0.5, 13.5, 1.25], "autoUv": false, "snapUv": false},
+								"up": {"texture": "#map", "uv": [10.5, 5, 12, 6.5], "autoUv": false, "snapUv": false},
+								"down": {"texture": "#map", "uv": [11, 3, 12.5, 4.5], "autoUv": false, "snapUv": false}
+							}
+						},
+						{
+							"name": "cork8_geo",
+							"from": [-0.5, 0, -0.5],
+							"to": [0.5, 1, 0.5],
+							"rotationOrigin": [-0.5, 0, -0.5],
+							"faces": {
+								"north": {"texture": "#map", "uv": [10, 3.5, 11, 4.5], "autoUv": false, "snapUv": false},
+								"east": {"texture": "#map", "uv": [11.5, 3.5, 12.5, 4.5], "autoUv": false, "snapUv": false},
+								"south": {"texture": "#map", "uv": [10.5, 3.5, 11.5, 4.5], "autoUv": false, "snapUv": false},
+								"west": {"texture": "#map", "uv": [11.5, 3.5, 12.5, 4.5], "autoUv": false, "snapUv": false},
+								"down": {"texture": "#map", "uv": [11.5, 7, 12.5, 8], "autoUv": false, "snapUv": false}
+							},
+							"renderPass": 3
+						}
+					]
+				},
+				{
+					"name": "cork9",
+					"from": [-1.3, 0.7, 3],
+					"to": [-1.3, 0.7, 3],
+					"rotationOrigin": [-1.3, 0.7, 3],
+					"rotationX": -90,
+					"rotationZ": 67.5,
+					"children": [
+						{
+							"name": "corkpart9",
+							"from": [-0.75, 0.95, -0.75],
+							"to": [0.75, 1.7, 0.75],
+							"rotationOrigin": [-0.5, 1, -0.5],
+							"faces": {
+								"north": {"texture": "#map", "uv": [10, 0.5, 11.5, 1.25], "autoUv": false, "snapUv": false},
+								"east": {"texture": "#map", "uv": [11, 0.5, 12.5, 1.25], "autoUv": false, "snapUv": false},
+								"south": {"texture": "#map", "uv": [11, 0.5, 12.5, 1.25], "autoUv": false, "snapUv": false},
+								"west": {"texture": "#map", "uv": [12, 0.5, 13.5, 1.25], "autoUv": false, "snapUv": false},
+								"up": {"texture": "#map", "uv": [10.5, 5, 12, 6.5], "autoUv": false, "snapUv": false},
+								"down": {"texture": "#map", "uv": [11, 3, 12.5, 4.5], "autoUv": false, "snapUv": false}
+							}
+						},
+						{
+							"name": "cork9_geo",
+							"from": [-0.5, 0, -0.5],
+							"to": [0.5, 1, 0.5],
+							"rotationOrigin": [-0.5, 0, -0.5],
+							"faces": {
+								"north": {"texture": "#map", "uv": [10, 3.5, 11, 4.5], "autoUv": false, "snapUv": false},
+								"east": {"texture": "#map", "uv": [11.5, 3.5, 12.5, 4.5], "autoUv": false, "snapUv": false},
+								"south": {"texture": "#map", "uv": [10.5, 3.5, 11.5, 4.5], "autoUv": false, "snapUv": false},
+								"west": {"texture": "#map", "uv": [11.5, 3.5, 12.5, 4.5], "autoUv": false, "snapUv": false},
+								"down": {"texture": "#map", "uv": [11.5, 7, 12.5, 8], "autoUv": false, "snapUv": false}
+							},
+							"renderPass": 3
+						}
+					]
+				},
+				{
+					"name": "cork10",
+					"from": [2.2, 0.7, 1.5],
+					"to": [2.2, 0.7, 1.5],
+					"rotationOrigin": [2.2, 0.7, 1.5],
+					"rotationX": -90,
+					"rotationZ": -77.5,
+					"children": [
+						{
+							"name": "corkpart10",
+							"from": [-0.75, 0.95, -0.75],
+							"to": [0.75, 1.7, 0.75],
+							"rotationOrigin": [-0.5, 1, -0.5],
+							"faces": {
+								"north": {"texture": "#map", "uv": [10, 0.5, 11.5, 1.25], "autoUv": false, "snapUv": false},
+								"east": {"texture": "#map", "uv": [11, 0.5, 12.5, 1.25], "autoUv": false, "snapUv": false},
+								"south": {"texture": "#map", "uv": [11, 0.5, 12.5, 1.25], "autoUv": false, "snapUv": false},
+								"west": {"texture": "#map", "uv": [12, 0.5, 13.5, 1.25], "autoUv": false, "snapUv": false},
+								"up": {"texture": "#map", "uv": [10.5, 5, 12, 6.5], "autoUv": false, "snapUv": false},
+								"down": {"texture": "#map", "uv": [11, 3, 12.5, 4.5], "autoUv": false, "snapUv": false}
+							}
+						},
+						{
+							"name": "cork10_geo",
+							"from": [-0.5, 0, -0.5],
+							"to": [0.5, 1, 0.5],
+							"rotationOrigin": [-0.5, 0, -0.5],
+							"faces": {
+								"north": {"texture": "#map", "uv": [10, 3.5, 11, 4.5], "autoUv": false, "snapUv": false},
+								"east": {"texture": "#map", "uv": [11.5, 3.5, 12.5, 4.5], "autoUv": false, "snapUv": false},
+								"south": {"texture": "#map", "uv": [10.5, 3.5, 11.5, 4.5], "autoUv": false, "snapUv": false},
+								"west": {"texture": "#map", "uv": [11.5, 3.5, 12.5, 4.5], "autoUv": false, "snapUv": false},
+								"down": {"texture": "#map", "uv": [11.5, 7, 12.5, 8], "autoUv": false, "snapUv": false}
+							},
+							"renderPass": 3
+						}
+					]
+				},
+				{
+					"name": "cork11",
+					"from": [-3.8, 0.7, 2.8],
+					"to": [-3.8, 0.7, 2.8],
+					"rotationOrigin": [-3.8, 0.7, 2.8],
+					"rotationX": -90,
+					"rotationY": -157.5,
+					"children": [
+						{
+							"name": "corkpart11",
+							"from": [-0.75, 0.95, -0.75],
+							"to": [0.75, 1.7, 0.75],
+							"rotationOrigin": [-0.5, 1, -0.5],
+							"faces": {
+								"north": {"texture": "#map", "uv": [10, 0.5, 11.5, 1.25], "autoUv": false, "snapUv": false},
+								"east": {"texture": "#map", "uv": [11, 0.5, 12.5, 1.25], "autoUv": false, "snapUv": false},
+								"south": {"texture": "#map", "uv": [11, 0.5, 12.5, 1.25], "autoUv": false, "snapUv": false},
+								"west": {"texture": "#map", "uv": [12, 0.5, 13.5, 1.25], "autoUv": false, "snapUv": false},
+								"up": {"texture": "#map", "uv": [10.5, 5, 12, 6.5], "autoUv": false, "snapUv": false},
+								"down": {"texture": "#map", "uv": [11, 3, 12.5, 4.5], "autoUv": false, "snapUv": false}
+							}
+						},
+						{
+							"name": "cork11_geo",
+							"from": [-0.5, 0, -0.5],
+							"to": [0.5, 1, 0.5],
+							"rotationOrigin": [-0.5, 0, -0.5],
+							"faces": {
+								"north": {"texture": "#map", "uv": [10, 3.5, 11, 4.5], "autoUv": false, "snapUv": false},
+								"east": {"texture": "#map", "uv": [11.5, 3.5, 12.5, 4.5], "autoUv": false, "snapUv": false},
+								"south": {"texture": "#map", "uv": [10.5, 3.5, 11.5, 4.5], "autoUv": false, "snapUv": false},
+								"west": {"texture": "#map", "uv": [11.5, 3.5, 12.5, 4.5], "autoUv": false, "snapUv": false},
+								"down": {"texture": "#map", "uv": [11.5, 7, 12.5, 8], "autoUv": false, "snapUv": false}
+							},
+							"renderPass": 3
+						}
+					]
+				},
+				{
+					"name": "cork12",
+					"from": [3.1, 0.7, -2.2],
+					"to": [3.1, 0.7, -2.2],
+					"rotationOrigin": [3.1, 0.7, -2.2],
+					"rotationY": -112.5,
+					"rotationZ": -90,
+					"children": [
+						{
+							"name": "corkpart12",
+							"from": [-0.75, 0.95, -0.75],
+							"to": [0.75, 1.7, 0.75],
+							"rotationOrigin": [-0.5, 1, -0.5],
+							"faces": {
+								"north": {"texture": "#map", "uv": [10, 0.5, 11.5, 1.25], "autoUv": false, "snapUv": false},
+								"east": {"texture": "#map", "uv": [11, 0.5, 12.5, 1.25], "autoUv": false, "snapUv": false},
+								"south": {"texture": "#map", "uv": [11, 0.5, 12.5, 1.25], "autoUv": false, "snapUv": false},
+								"west": {"texture": "#map", "uv": [12, 0.5, 13.5, 1.25], "autoUv": false, "snapUv": false},
+								"up": {"texture": "#map", "uv": [10.5, 5, 12, 6.5], "autoUv": false, "snapUv": false},
+								"down": {"texture": "#map", "uv": [11, 3, 12.5, 4.5], "autoUv": false, "snapUv": false}
+							}
+						},
+						{
+							"name": "cork12_geo",
+							"from": [-0.5, 0, -0.5],
+							"to": [0.5, 1, 0.5],
+							"rotationOrigin": [-0.5, 0, -0.5],
+							"faces": {
+								"north": {"texture": "#map", "uv": [10, 3.5, 11, 4.5], "autoUv": false, "snapUv": false},
+								"east": {"texture": "#map", "uv": [11.5, 3.5, 12.5, 4.5], "autoUv": false, "snapUv": false},
+								"south": {"texture": "#map", "uv": [10.5, 3.5, 11.5, 4.5], "autoUv": false, "snapUv": false},
+								"west": {"texture": "#map", "uv": [11.5, 3.5, 12.5, 4.5], "autoUv": false, "snapUv": false},
+								"down": {"texture": "#map", "uv": [11.5, 7, 12.5, 8], "autoUv": false, "snapUv": false}
+							},
+							"renderPass": 3
+						}
+					]
+				},
+				{
+					"name": "cork13",
+					"from": [-3, 0.7, -0.5],
+					"to": [-3, 0.7, -0.5],
+					"rotationOrigin": [-3, 0.7, -0.5],
+					"rotationX": 180,
+					"rotationY": -135,
+					"rotationZ": -90,
+					"children": [
+						{
+							"name": "corkpart13",
+							"from": [-0.75, 0.95, -0.75],
+							"to": [0.75, 1.7, 0.75],
+							"rotationOrigin": [-0.5, 1, -0.5],
+							"faces": {
+								"north": {"texture": "#map", "uv": [10, 0.5, 11.5, 1.25], "autoUv": false, "snapUv": false},
+								"east": {"texture": "#map", "uv": [11, 0.5, 12.5, 1.25], "autoUv": false, "snapUv": false},
+								"south": {"texture": "#map", "uv": [11, 0.5, 12.5, 1.25], "autoUv": false, "snapUv": false},
+								"west": {"texture": "#map", "uv": [12, 0.5, 13.5, 1.25], "autoUv": false, "snapUv": false},
+								"up": {"texture": "#map", "uv": [10.5, 5, 12, 6.5], "autoUv": false, "snapUv": false},
+								"down": {"texture": "#map", "uv": [11, 3, 12.5, 4.5], "autoUv": false, "snapUv": false}
+							}
+						},
+						{
+							"name": "cork13_geo",
+							"from": [-0.5, 0, -0.5],
+							"to": [0.5, 1, 0.5],
+							"rotationOrigin": [-0.5, 0, -0.5],
+							"faces": {
+								"north": {"texture": "#map", "uv": [10, 3.5, 11, 4.5], "autoUv": false, "snapUv": false},
+								"east": {"texture": "#map", "uv": [11.5, 3.5, 12.5, 4.5], "autoUv": false, "snapUv": false},
+								"south": {"texture": "#map", "uv": [10.5, 3.5, 11.5, 4.5], "autoUv": false, "snapUv": false},
+								"west": {"texture": "#map", "uv": [11.5, 3.5, 12.5, 4.5], "autoUv": false, "snapUv": false},
+								"down": {"texture": "#map", "uv": [11.5, 7, 12.5, 8], "autoUv": false, "snapUv": false}
+							},
+							"renderPass": 3
+						}
+					]
+				},
+				{
+					"name": "cork14",
+					"from": [-1.1, 1.7, -2.3],
+					"to": [-1.1, 1.7, -2.3],
+					"rotationOrigin": [-1.1, 1.7, -2.3],
+					"rotationX": 180,
+					"rotationY": -45,
+					"rotationZ": -45,
+					"children": [
+						{
+							"name": "corkpart14",
+							"from": [-0.75, 0.95, -0.75],
+							"to": [0.75, 1.7, 0.75],
+							"rotationOrigin": [-0.5, 1, -0.5],
+							"faces": {
+								"north": {"texture": "#map", "uv": [10, 0.5, 11.5, 1.25], "autoUv": false, "snapUv": false},
+								"east": {"texture": "#map", "uv": [11, 0.5, 12.5, 1.25], "autoUv": false, "snapUv": false},
+								"south": {"texture": "#map", "uv": [11, 0.5, 12.5, 1.25], "autoUv": false, "snapUv": false},
+								"west": {"texture": "#map", "uv": [12, 0.5, 13.5, 1.25], "autoUv": false, "snapUv": false},
+								"up": {"texture": "#map", "uv": [10.5, 5, 12, 6.5], "autoUv": false, "snapUv": false},
+								"down": {"texture": "#map", "uv": [11, 3, 12.5, 4.5], "autoUv": false, "snapUv": false}
+							}
+						},
+						{
+							"name": "cork14_geo",
+							"from": [-0.5, 0, -0.5],
+							"to": [0.5, 1, 0.5],
+							"rotationOrigin": [-0.5, 0, -0.5],
+							"faces": {
+								"north": {"texture": "#map", "uv": [10, 3.5, 11, 4.5], "autoUv": false, "snapUv": false},
+								"east": {"texture": "#map", "uv": [11.5, 3.5, 12.5, 4.5], "autoUv": false, "snapUv": false},
+								"south": {"texture": "#map", "uv": [10.5, 3.5, 11.5, 4.5], "autoUv": false, "snapUv": false},
+								"west": {"texture": "#map", "uv": [11.5, 3.5, 12.5, 4.5], "autoUv": false, "snapUv": false},
+								"down": {"texture": "#map", "uv": [11.5, 7, 12.5, 8], "autoUv": false, "snapUv": false}
+							},
+							"renderPass": 3
+						}
+					]
+				},
+				{
+					"name": "cork15",
+					"from": [-2.9, 0.7, 4.5],
+					"to": [-2.9, 0.7, 4.5],
+					"rotationOrigin": [-2.9, 0.7, 4.5],
+					"rotationX": 112.5,
+					"rotationZ": -90,
+					"children": [
+						{
+							"name": "corkpart15",
+							"from": [-0.75, 0.95, -0.75],
+							"to": [0.75, 1.7, 0.75],
+							"rotationOrigin": [-0.5, 1, -0.5],
+							"faces": {
+								"north": {"texture": "#map", "uv": [10, 0.5, 11.5, 1.25], "autoUv": false, "snapUv": false},
+								"east": {"texture": "#map", "uv": [11, 0.5, 12.5, 1.25], "autoUv": false, "snapUv": false},
+								"south": {"texture": "#map", "uv": [11, 0.5, 12.5, 1.25], "autoUv": false, "snapUv": false},
+								"west": {"texture": "#map", "uv": [12, 0.5, 13.5, 1.25], "autoUv": false, "snapUv": false},
+								"up": {"texture": "#map", "uv": [10.5, 5, 12, 6.5], "autoUv": false, "snapUv": false},
+								"down": {"texture": "#map", "uv": [11, 3, 12.5, 4.5], "autoUv": false, "snapUv": false}
+							}
+						},
+						{
+							"name": "cork15_geo",
+							"from": [-0.5, 0, -0.5],
+							"to": [0.5, 1, 0.5],
+							"rotationOrigin": [-0.5, 0, -0.5],
+							"faces": {
+								"north": {"texture": "#map", "uv": [10, 3.5, 11, 4.5], "autoUv": false, "snapUv": false},
+								"east": {"texture": "#map", "uv": [11.5, 3.5, 12.5, 4.5], "autoUv": false, "snapUv": false},
+								"south": {"texture": "#map", "uv": [10.5, 3.5, 11.5, 4.5], "autoUv": false, "snapUv": false},
+								"west": {"texture": "#map", "uv": [11.5, 3.5, 12.5, 4.5], "autoUv": false, "snapUv": false},
+								"down": {"texture": "#map", "uv": [11.5, 7, 12.5, 8], "autoUv": false, "snapUv": false}
+							},
+							"renderPass": 3
+						}
+					]
+				},
+				{
+					"name": "cork16",
+					"from": [2.1, 0.7, 4],
+					"to": [2.1, 0.7, 4],
+					"rotationOrigin": [2.1, 0.7, 4],
+					"rotationX": 90,
+					"rotationZ": 67.5,
+					"children": [
+						{
+							"name": "corkpart16",
+							"from": [-0.75, 0.95, -0.75],
+							"to": [0.75, 1.7, 0.75],
+							"rotationOrigin": [-0.5, 1, -0.5],
+							"faces": {
+								"north": {"texture": "#map", "uv": [10, 0.5, 11.5, 1.25], "autoUv": false, "snapUv": false},
+								"east": {"texture": "#map", "uv": [11, 0.5, 12.5, 1.25], "autoUv": false, "snapUv": false},
+								"south": {"texture": "#map", "uv": [11, 0.5, 12.5, 1.25], "autoUv": false, "snapUv": false},
+								"west": {"texture": "#map", "uv": [12, 0.5, 13.5, 1.25], "autoUv": false, "snapUv": false},
+								"up": {"texture": "#map", "uv": [10.5, 5, 12, 6.5], "autoUv": false, "snapUv": false},
+								"down": {"texture": "#map", "uv": [11, 3, 12.5, 4.5], "autoUv": false, "snapUv": false}
+							}
+						},
+						{
+							"name": "cork16_geo",
+							"from": [-0.5, 0, -0.5],
+							"to": [0.5, 1, 0.5],
+							"rotationOrigin": [-0.5, 0, -0.5],
+							"faces": {
+								"north": {"texture": "#map", "uv": [10, 3.5, 11, 4.5], "autoUv": false, "snapUv": false},
+								"east": {"texture": "#map", "uv": [11.5, 3.5, 12.5, 4.5], "autoUv": false, "snapUv": false},
+								"south": {"texture": "#map", "uv": [10.5, 3.5, 11.5, 4.5], "autoUv": false, "snapUv": false},
+								"west": {"texture": "#map", "uv": [11.5, 3.5, 12.5, 4.5], "autoUv": false, "snapUv": false},
+								"down": {"texture": "#map", "uv": [11.5, 7, 12.5, 8], "autoUv": false, "snapUv": false}
+							},
+							"renderPass": 3
+						}
+					]
+				},
+				{
+					"name": "cork17",
+					"from": [1.2, 2.5, 2.4],
+					"to": [1.2, 2.5, 2.4],
+					"rotationOrigin": [1.2, 2.5, 2.4],
+					"rotationX": -90,
+					"rotationY": -45,
+					"rotationZ": 67.5,
+					"children": [
+						{
+							"name": "corkpart17",
+							"from": [-0.75, 0.95, -0.75],
+							"to": [0.75, 1.7, 0.75],
+							"rotationOrigin": [-0.5, 1, -0.5],
+							"faces": {
+								"north": {"texture": "#map", "uv": [10, 0.5, 11.5, 1.25], "autoUv": false, "snapUv": false},
+								"east": {"texture": "#map", "uv": [11, 0.5, 12.5, 1.25], "autoUv": false, "snapUv": false},
+								"south": {"texture": "#map", "uv": [11, 0.5, 12.5, 1.25], "autoUv": false, "snapUv": false},
+								"west": {"texture": "#map", "uv": [12, 0.5, 13.5, 1.25], "autoUv": false, "snapUv": false},
+								"up": {"texture": "#map", "uv": [10.5, 5, 12, 6.5], "autoUv": false, "snapUv": false},
+								"down": {"texture": "#map", "uv": [11, 3, 12.5, 4.5], "autoUv": false, "snapUv": false}
+							}
+						},
+						{
+							"name": "cork17_geo",
+							"from": [-0.5, 0, -0.5],
+							"to": [0.5, 1, 0.5],
+							"rotationOrigin": [-0.5, 0, -0.5],
+							"faces": {
+								"north": {"texture": "#map", "uv": [10, 3.5, 11, 4.5], "autoUv": false, "snapUv": false},
+								"east": {"texture": "#map", "uv": [11.5, 3.5, 12.5, 4.5], "autoUv": false, "snapUv": false},
+								"south": {"texture": "#map", "uv": [10.5, 3.5, 11.5, 4.5], "autoUv": false, "snapUv": false},
+								"west": {"texture": "#map", "uv": [11.5, 3.5, 12.5, 4.5], "autoUv": false, "snapUv": false},
+								"down": {"texture": "#map", "uv": [11.5, 7, 12.5, 8], "autoUv": false, "snapUv": false}
+							},
+							"renderPass": 3
+						}
+					]
+				},
+				{
+					"name": "cork18",
+					"from": [-2, 1.5, 1.8],
+					"to": [-2, 1.5, 1.8],
+					"rotationOrigin": [-2, 1.5, 1.8],
+					"rotationX": -22.5,
+					"rotationZ": -45,
+					"children": [
+						{
+							"name": "corkpart18",
+							"from": [-0.75, 0.95, -0.75],
+							"to": [0.75, 1.7, 0.75],
+							"rotationOrigin": [-0.5, 1, -0.5],
+							"faces": {
+								"north": {"texture": "#map", "uv": [10, 0.5, 11.5, 1.25], "autoUv": false, "snapUv": false},
+								"east": {"texture": "#map", "uv": [11, 0.5, 12.5, 1.25], "autoUv": false, "snapUv": false},
+								"south": {"texture": "#map", "uv": [11, 0.5, 12.5, 1.25], "autoUv": false, "snapUv": false},
+								"west": {"texture": "#map", "uv": [12, 0.5, 13.5, 1.25], "autoUv": false, "snapUv": false},
+								"up": {"texture": "#map", "uv": [10.5, 5, 12, 6.5], "autoUv": false, "snapUv": false},
+								"down": {"texture": "#map", "uv": [11, 3, 12.5, 4.5], "autoUv": false, "snapUv": false}
+							}
+						},
+						{
+							"name": "cork18_geo",
+							"from": [-0.5, 0, -0.5],
+							"to": [0.5, 1, 0.5],
+							"rotationOrigin": [-0.5, 0, -0.5],
+							"faces": {
+								"north": {"texture": "#map", "uv": [10, 3.5, 11, 4.5], "autoUv": false, "snapUv": false},
+								"east": {"texture": "#map", "uv": [11.5, 3.5, 12.5, 4.5], "autoUv": false, "snapUv": false},
+								"south": {"texture": "#map", "uv": [10.5, 3.5, 11.5, 4.5], "autoUv": false, "snapUv": false},
+								"west": {"texture": "#map", "uv": [11.5, 3.5, 12.5, 4.5], "autoUv": false, "snapUv": false},
+								"down": {"texture": "#map", "uv": [11.5, 7, 12.5, 8], "autoUv": false, "snapUv": false}
+							},
+							"renderPass": 3
+						}
+					]
+				},
+				{
+					"name": "cork19",
+					"from": [-1.7, 1.6, 0],
+					"to": [-1.7, 1.6, 0],
+					"rotationOrigin": [-1.7, 1.6, 0],
+					"rotationY": 67.5,
+					"rotationZ": -45,
+					"children": [
+						{
+							"name": "corkpart19",
+							"from": [-0.75, 0.95, -0.75],
+							"to": [0.75, 1.7, 0.75],
+							"rotationOrigin": [-0.5, 1, -0.5],
+							"faces": {
+								"north": {"texture": "#map", "uv": [10, 0.5, 11.5, 1.25], "autoUv": false, "snapUv": false},
+								"east": {"texture": "#map", "uv": [11, 0.5, 12.5, 1.25], "autoUv": false, "snapUv": false},
+								"south": {"texture": "#map", "uv": [11, 0.5, 12.5, 1.25], "autoUv": false, "snapUv": false},
+								"west": {"texture": "#map", "uv": [12, 0.5, 13.5, 1.25], "autoUv": false, "snapUv": false},
+								"up": {"texture": "#map", "uv": [10.5, 5, 12, 6.5], "autoUv": false, "snapUv": false},
+								"down": {"texture": "#map", "uv": [11, 3, 12.5, 4.5], "autoUv": false, "snapUv": false}
+							}
+						},
+						{
+							"name": "cork19_geo",
+							"from": [-0.5, 0, -0.5],
+							"to": [0.5, 1, 0.5],
+							"rotationOrigin": [-0.5, 0, -0.5],
+							"faces": {
+								"north": {"texture": "#map", "uv": [10, 3.5, 11, 4.5], "autoUv": false, "snapUv": false},
+								"east": {"texture": "#map", "uv": [11.5, 3.5, 12.5, 4.5], "autoUv": false, "snapUv": false},
+								"south": {"texture": "#map", "uv": [10.5, 3.5, 11.5, 4.5], "autoUv": false, "snapUv": false},
+								"west": {"texture": "#map", "uv": [11.5, 3.5, 12.5, 4.5], "autoUv": false, "snapUv": false},
+								"down": {"texture": "#map", "uv": [11.5, 7, 12.5, 8], "autoUv": false, "snapUv": false}
+							},
+							"renderPass": 3
+						}
+					]
+				},
+				{
+					"name": "cork20",
+					"from": [0.6, 1.7, -0.1],
+					"to": [0.6, 1.7, -0.1],
+					"rotationOrigin": [0.6, 1.7, -0.1],
+					"rotationX": -45,
+					"rotationZ": -45,
+					"children": [
+						{
+							"name": "corkpart20",
+							"from": [-0.75, 0.95, -0.75],
+							"to": [0.75, 1.7, 0.75],
+							"rotationOrigin": [-0.5, 1, -0.5],
+							"faces": {
+								"north": {"texture": "#map", "uv": [10, 0.5, 11.5, 1.25], "autoUv": false, "snapUv": false},
+								"east": {"texture": "#map", "uv": [11, 0.5, 12.5, 1.25], "autoUv": false, "snapUv": false},
+								"south": {"texture": "#map", "uv": [11, 0.5, 12.5, 1.25], "autoUv": false, "snapUv": false},
+								"west": {"texture": "#map", "uv": [12, 0.5, 13.5, 1.25], "autoUv": false, "snapUv": false},
+								"up": {"texture": "#map", "uv": [10.5, 5, 12, 6.5], "autoUv": false, "snapUv": false},
+								"down": {"texture": "#map", "uv": [11, 3, 12.5, 4.5], "autoUv": false, "snapUv": false}
+							}
+						},
+						{
+							"name": "cork20_geo",
+							"from": [-0.5, 0, -0.5],
+							"to": [0.5, 1, 0.5],
+							"rotationOrigin": [-0.5, 0, -0.5],
+							"faces": {
+								"north": {"texture": "#map", "uv": [10, 3.5, 11, 4.5], "autoUv": false, "snapUv": false},
+								"east": {"texture": "#map", "uv": [11.5, 3.5, 12.5, 4.5], "autoUv": false, "snapUv": false},
+								"south": {"texture": "#map", "uv": [10.5, 3.5, 11.5, 4.5], "autoUv": false, "snapUv": false},
+								"west": {"texture": "#map", "uv": [11.5, 3.5, 12.5, 4.5], "autoUv": false, "snapUv": false},
+								"down": {"texture": "#map", "uv": [11.5, 7, 12.5, 8], "autoUv": false, "snapUv": false}
+							},
+							"renderPass": 3
+						}
+					]
+				},
+				{
+					"name": "cork21",
+					"from": [0.2, 2, 0.5],
+					"to": [0.2, 2, 0.5],
+					"rotationOrigin": [0.2, 2, 0.5],
+					"rotationY": 22.5,
+					"rotationZ": 22.5,
+					"children": [
+						{
+							"name": "corkpart21",
+							"from": [-0.75, 0.95, -0.75],
+							"to": [0.75, 1.7, 0.75],
+							"rotationOrigin": [-0.5, 1, -0.5],
+							"faces": {
+								"north": {"texture": "#map", "uv": [10, 0.5, 11.5, 1.25], "autoUv": false, "snapUv": false},
+								"east": {"texture": "#map", "uv": [11, 0.5, 12.5, 1.25], "autoUv": false, "snapUv": false},
+								"south": {"texture": "#map", "uv": [11, 0.5, 12.5, 1.25], "autoUv": false, "snapUv": false},
+								"west": {"texture": "#map", "uv": [12, 0.5, 13.5, 1.25], "autoUv": false, "snapUv": false},
+								"up": {"texture": "#map", "uv": [10.5, 5, 12, 6.5], "autoUv": false, "snapUv": false},
+								"down": {"texture": "#map", "uv": [11, 3, 12.5, 4.5], "autoUv": false, "snapUv": false}
+							}
+						},
+						{
+							"name": "cork21_geo",
+							"from": [-0.5, 0, -0.5],
+							"to": [0.5, 1, 0.5],
+							"rotationOrigin": [-0.5, 0, -0.5],
+							"faces": {
+								"north": {"texture": "#map", "uv": [10, 3.5, 11, 4.5], "autoUv": false, "snapUv": false},
+								"east": {"texture": "#map", "uv": [11.5, 3.5, 12.5, 4.5], "autoUv": false, "snapUv": false},
+								"south": {"texture": "#map", "uv": [10.5, 3.5, 11.5, 4.5], "autoUv": false, "snapUv": false},
+								"west": {"texture": "#map", "uv": [11.5, 3.5, 12.5, 4.5], "autoUv": false, "snapUv": false},
+								"down": {"texture": "#map", "uv": [11.5, 7, 12.5, 8], "autoUv": false, "snapUv": false}
+							},
+							"renderPass": 3
+						}
+					]
+				},
+				{
+					"name": "cork22",
+					"from": [2.6, 1.5, 1],
+					"to": [2.6, 1.5, 1],
+					"rotationOrigin": [2.6, 1.5, 1],
+					"rotationZ": 45,
+					"children": [
+						{
+							"name": "corkpart22",
+							"from": [-0.75, 0.95, -0.75],
+							"to": [0.75, 1.7, 0.75],
+							"rotationOrigin": [-0.5, 1, -0.5],
+							"faces": {
+								"north": {"texture": "#map", "uv": [10, 0.5, 11.5, 1.25], "autoUv": false, "snapUv": false},
+								"east": {"texture": "#map", "uv": [11, 0.5, 12.5, 1.25], "autoUv": false, "snapUv": false},
+								"south": {"texture": "#map", "uv": [11, 0.5, 12.5, 1.25], "autoUv": false, "snapUv": false},
+								"west": {"texture": "#map", "uv": [12, 0.5, 13.5, 1.25], "autoUv": false, "snapUv": false},
+								"up": {"texture": "#map", "uv": [10.5, 5, 12, 6.5], "autoUv": false, "snapUv": false},
+								"down": {"texture": "#map", "uv": [11, 3, 12.5, 4.5], "autoUv": false, "snapUv": false}
+							}
+						},
+						{
+							"name": "cork22_geo",
+							"from": [-0.5, 0, -0.5],
+							"to": [0.5, 1, 0.5],
+							"rotationOrigin": [-0.5, 0, -0.5],
+							"faces": {
+								"north": {"texture": "#map", "uv": [10, 3.5, 11, 4.5], "autoUv": false, "snapUv": false},
+								"east": {"texture": "#map", "uv": [11.5, 3.5, 12.5, 4.5], "autoUv": false, "snapUv": false},
+								"south": {"texture": "#map", "uv": [10.5, 3.5, 11.5, 4.5], "autoUv": false, "snapUv": false},
+								"west": {"texture": "#map", "uv": [11.5, 3.5, 12.5, 4.5], "autoUv": false, "snapUv": false},
+								"down": {"texture": "#map", "uv": [11.5, 7, 12.5, 8], "autoUv": false, "snapUv": false}
+							},
+							"renderPass": 3
+						}
+					]
+				},
+				{
+					"name": "cork23",
+					"from": [-3.5, 1.1, 0.7],
+					"to": [-3.5, 1.1, 0.7],
+					"rotationOrigin": [-3.5, 1.1, 0.7],
+					"rotationX": -45,
+					"children": [
+						{
+							"name": "corkpart23",
+							"from": [-0.75, 0.95, -0.75],
+							"to": [0.75, 1.7, 0.75],
+							"rotationOrigin": [-0.5, 1, -0.5],
+							"faces": {
+								"north": {"texture": "#map", "uv": [10, 0.5, 11.5, 1.25], "autoUv": false, "snapUv": false},
+								"east": {"texture": "#map", "uv": [11, 0.5, 12.5, 1.25], "autoUv": false, "snapUv": false},
+								"south": {"texture": "#map", "uv": [11, 0.5, 12.5, 1.25], "autoUv": false, "snapUv": false},
+								"west": {"texture": "#map", "uv": [12, 0.5, 13.5, 1.25], "autoUv": false, "snapUv": false},
+								"up": {"texture": "#map", "uv": [10.5, 5, 12, 6.5], "autoUv": false, "snapUv": false},
+								"down": {"texture": "#map", "uv": [11, 3, 12.5, 4.5], "autoUv": false, "snapUv": false}
+							}
+						},
+						{
+							"name": "cork23_geo",
+							"from": [-0.5, 0, -0.5],
+							"to": [0.5, 1, 0.5],
+							"rotationOrigin": [-0.5, 0, -0.5],
+							"faces": {
+								"north": {"texture": "#map", "uv": [10, 3.5, 11, 4.5], "autoUv": false, "snapUv": false},
+								"east": {"texture": "#map", "uv": [11.5, 3.5, 12.5, 4.5], "autoUv": false, "snapUv": false},
+								"south": {"texture": "#map", "uv": [10.5, 3.5, 11.5, 4.5], "autoUv": false, "snapUv": false},
+								"west": {"texture": "#map", "uv": [11.5, 3.5, 12.5, 4.5], "autoUv": false, "snapUv": false},
+								"down": {"texture": "#map", "uv": [11.5, 7, 12.5, 8], "autoUv": false, "snapUv": false}
+							},
+							"renderPass": 3
+						}
+					]
+				},
+				{
+					"name": "cork24",
+					"from": [-2.5, 1.8, -2.3],
+					"to": [-2.5, 1.8, -2.3],
+					"rotationOrigin": [-2.5, 1.8, -2.3],
+					"rotationX": -135,
+					"rotationY": -22.5,
+					"rotationZ": 22.5,
+					"children": [
+						{
+							"name": "corkpart24",
+							"from": [-0.75, 0.95, -0.75],
+							"to": [0.75, 1.7, 0.75],
+							"rotationOrigin": [-0.5, 1, -0.5],
+							"faces": {
+								"north": {"texture": "#map", "uv": [10, 0.5, 11.5, 1.25], "autoUv": false, "snapUv": false},
+								"east": {"texture": "#map", "uv": [11, 0.5, 12.5, 1.25], "autoUv": false, "snapUv": false},
+								"south": {"texture": "#map", "uv": [11, 0.5, 12.5, 1.25], "autoUv": false, "snapUv": false},
+								"west": {"texture": "#map", "uv": [12, 0.5, 13.5, 1.25], "autoUv": false, "snapUv": false},
+								"up": {"texture": "#map", "uv": [10.5, 5, 12, 6.5], "autoUv": false, "snapUv": false},
+								"down": {"texture": "#map", "uv": [11, 3, 12.5, 4.5], "autoUv": false, "snapUv": false}
+							}
+						},
+						{
+							"name": "cork24_geo",
+							"from": [-0.5, 0, -0.5],
+							"to": [0.5, 1, 0.5],
+							"rotationOrigin": [-0.5, 0, -0.5],
+							"faces": {
+								"north": {"texture": "#map", "uv": [10, 3.5, 11, 4.5], "autoUv": false, "snapUv": false},
+								"east": {"texture": "#map", "uv": [11.5, 3.5, 12.5, 4.5], "autoUv": false, "snapUv": false},
+								"south": {"texture": "#map", "uv": [10.5, 3.5, 11.5, 4.5], "autoUv": false, "snapUv": false},
+								"west": {"texture": "#map", "uv": [11.5, 3.5, 12.5, 4.5], "autoUv": false, "snapUv": false},
+								"down": {"texture": "#map", "uv": [11.5, 7, 12.5, 8], "autoUv": false, "snapUv": false}
+							},
+							"renderPass": 3
+						}
+					]
+				},
+				{
+					"name": "cork25",
+					"from": [-0.2, 1.8, -1.8],
+					"to": [-0.2, 1.8, -1.8],
+					"rotationOrigin": [-0.2, 1.8, -1.8],
+					"rotationY": -45,
+					"rotationZ": -22.5,
+					"children": [
+						{
+							"name": "corkpart25",
+							"from": [-0.75, 0.95, -0.75],
+							"to": [0.75, 1.7, 0.75],
+							"rotationOrigin": [-0.5, 1, -0.5],
+							"faces": {
+								"north": {"texture": "#map", "uv": [10, 0.5, 11.5, 1.25], "autoUv": false, "snapUv": false},
+								"east": {"texture": "#map", "uv": [11, 0.5, 12.5, 1.25], "autoUv": false, "snapUv": false},
+								"south": {"texture": "#map", "uv": [11, 0.5, 12.5, 1.25], "autoUv": false, "snapUv": false},
+								"west": {"texture": "#map", "uv": [12, 0.5, 13.5, 1.25], "autoUv": false, "snapUv": false},
+								"up": {"texture": "#map", "uv": [10.5, 5, 12, 6.5], "autoUv": false, "snapUv": false},
+								"down": {"texture": "#map", "uv": [11, 3, 12.5, 4.5], "autoUv": false, "snapUv": false}
+							}
+						},
+						{
+							"name": "cork25_geo",
+							"from": [-0.5, 0, -0.5],
+							"to": [0.5, 1, 0.5],
+							"rotationOrigin": [-0.5, 0, -0.5],
+							"faces": {
+								"north": {"texture": "#map", "uv": [10, 3.5, 11, 4.5], "autoUv": false, "snapUv": false},
+								"east": {"texture": "#map", "uv": [11.5, 3.5, 12.5, 4.5], "autoUv": false, "snapUv": false},
+								"south": {"texture": "#map", "uv": [10.5, 3.5, 11.5, 4.5], "autoUv": false, "snapUv": false},
+								"west": {"texture": "#map", "uv": [11.5, 3.5, 12.5, 4.5], "autoUv": false, "snapUv": false},
+								"down": {"texture": "#map", "uv": [11.5, 7, 12.5, 8], "autoUv": false, "snapUv": false}
+							},
+							"renderPass": 3
+						}
+					]
+				},
+				{
+					"name": "cork26",
+					"from": [1.6, 0.7, -3.8],
+					"to": [1.6, 0.7, -3.8],
+					"rotationOrigin": [1.6, 0.7, -3.8],
+					"rotationY": -45,
+					"rotationZ": -90,
+					"children": [
+						{
+							"name": "corkpart26",
+							"from": [-0.75, 0.95, -0.75],
+							"to": [0.75, 1.7, 0.75],
+							"rotationOrigin": [-0.5, 1, -0.5],
+							"faces": {
+								"north": {"texture": "#map", "uv": [10, 0.5, 11.5, 1.25], "autoUv": false, "snapUv": false},
+								"east": {"texture": "#map", "uv": [11, 0.5, 12.5, 1.25], "autoUv": false, "snapUv": false},
+								"south": {"texture": "#map", "uv": [11, 0.5, 12.5, 1.25], "autoUv": false, "snapUv": false},
+								"west": {"texture": "#map", "uv": [12, 0.5, 13.5, 1.25], "autoUv": false, "snapUv": false},
+								"up": {"texture": "#map", "uv": [10.5, 5, 12, 6.5], "autoUv": false, "snapUv": false},
+								"down": {"texture": "#map", "uv": [11, 3, 12.5, 4.5], "autoUv": false, "snapUv": false}
+							}
+						},
+						{
+							"name": "cork26_geo",
+							"from": [-0.5, 0, -0.5],
+							"to": [0.5, 1, 0.5],
+							"rotationOrigin": [-0.5, 0, -0.5],
+							"faces": {
+								"north": {"texture": "#map", "uv": [10, 3.5, 11, 4.5], "autoUv": false, "snapUv": false},
+								"east": {"texture": "#map", "uv": [11.5, 3.5, 12.5, 4.5], "autoUv": false, "snapUv": false},
+								"south": {"texture": "#map", "uv": [10.5, 3.5, 11.5, 4.5], "autoUv": false, "snapUv": false},
+								"west": {"texture": "#map", "uv": [11.5, 3.5, 12.5, 4.5], "autoUv": false, "snapUv": false},
+								"down": {"texture": "#map", "uv": [11.5, 7, 12.5, 8], "autoUv": false, "snapUv": false}
+							},
+							"renderPass": 3
+						}
+					]
+				},
+				{
+					"name": "cork27",
+					"from": [-3.3, 1.6, 3.4],
+					"to": [-3.3, 1.6, 3.4],
+					"rotationOrigin": [-3.3, 1.6, 3.4],
+					"rotationY": -135,
+					"rotationZ": -135,
+					"children": [
+						{
+							"name": "corkpart27",
+							"from": [-0.75, 0.95, -0.75],
+							"to": [0.75, 1.7, 0.75],
+							"rotationOrigin": [-0.5, 1, -0.5],
+							"faces": {
+								"north": {"texture": "#map", "uv": [10, 0.5, 11.5, 1.25], "autoUv": false, "snapUv": false},
+								"east": {"texture": "#map", "uv": [11, 0.5, 12.5, 1.25], "autoUv": false, "snapUv": false},
+								"south": {"texture": "#map", "uv": [11, 0.5, 12.5, 1.25], "autoUv": false, "snapUv": false},
+								"west": {"texture": "#map", "uv": [12, 0.5, 13.5, 1.25], "autoUv": false, "snapUv": false},
+								"up": {"texture": "#map", "uv": [10.5, 5, 12, 6.5], "autoUv": false, "snapUv": false},
+								"down": {"texture": "#map", "uv": [11, 3, 12.5, 4.5], "autoUv": false, "snapUv": false}
+							}
+						},
+						{
+							"name": "cork27_geo",
+							"from": [-0.5, 0, -0.5],
+							"to": [0.5, 1, 0.5],
+							"rotationOrigin": [-0.5, 0, -0.5],
+							"faces": {
+								"north": {"texture": "#map", "uv": [10, 3.5, 11, 4.5], "autoUv": false, "snapUv": false},
+								"east": {"texture": "#map", "uv": [11.5, 3.5, 12.5, 4.5], "autoUv": false, "snapUv": false},
+								"south": {"texture": "#map", "uv": [10.5, 3.5, 11.5, 4.5], "autoUv": false, "snapUv": false},
+								"west": {"texture": "#map", "uv": [11.5, 3.5, 12.5, 4.5], "autoUv": false, "snapUv": false},
+								"down": {"texture": "#map", "uv": [11.5, 7, 12.5, 8], "autoUv": false, "snapUv": false}
+							},
+							"renderPass": 3
+						}
+					]
+				},
+				{
+					"name": "cork28",
+					"from": [3.1, 0.7, 4.3],
+					"to": [3.1, 0.7, 4.3],
+					"rotationOrigin": [3.1, 0.7, 4.3],
+					"rotationY": -112.5,
+					"rotationZ": 90,
+					"children": [
+						{
+							"name": "corkpart28",
+							"from": [-0.75, 0.95, -0.75],
+							"to": [0.75, 1.7, 0.75],
+							"rotationOrigin": [-0.5, 1, -0.5],
+							"faces": {
+								"north": {"texture": "#map", "uv": [10, 0.5, 11.5, 1.25], "autoUv": false, "snapUv": false},
+								"east": {"texture": "#map", "uv": [11, 0.5, 12.5, 1.25], "autoUv": false, "snapUv": false},
+								"south": {"texture": "#map", "uv": [11, 0.5, 12.5, 1.25], "autoUv": false, "snapUv": false},
+								"west": {"texture": "#map", "uv": [12, 0.5, 13.5, 1.25], "autoUv": false, "snapUv": false},
+								"up": {"texture": "#map", "uv": [10.5, 5, 12, 6.5], "autoUv": false, "snapUv": false},
+								"down": {"texture": "#map", "uv": [11, 3, 12.5, 4.5], "autoUv": false, "snapUv": false}
+							}
+						},
+						{
+							"name": "cork28_geo",
+							"from": [-0.5, 0, -0.5],
+							"to": [0.5, 1, 0.5],
+							"rotationOrigin": [-0.5, 0, -0.5],
+							"faces": {
+								"north": {"texture": "#map", "uv": [10, 3.5, 11, 4.5], "autoUv": false, "snapUv": false},
+								"east": {"texture": "#map", "uv": [11.5, 3.5, 12.5, 4.5], "autoUv": false, "snapUv": false},
+								"south": {"texture": "#map", "uv": [10.5, 3.5, 11.5, 4.5], "autoUv": false, "snapUv": false},
+								"west": {"texture": "#map", "uv": [11.5, 3.5, 12.5, 4.5], "autoUv": false, "snapUv": false},
+								"down": {"texture": "#map", "uv": [11.5, 7, 12.5, 8], "autoUv": false, "snapUv": false}
+							},
+							"renderPass": 3
+						}
+					]
+				},
+				{
+					"name": "cork29",
+					"from": [4, 0.7, -1.7],
+					"to": [4, 0.7, -1.7],
+					"rotationOrigin": [4, 0.7, -1.7],
+					"rotationY": -67.5,
+					"rotationZ": -90,
+					"children": [
+						{
+							"name": "corkpart29",
+							"from": [-0.75, 0.95, -0.75],
+							"to": [0.75, 1.7, 0.75],
+							"rotationOrigin": [-0.5, 1, -0.5],
+							"faces": {
+								"north": {"texture": "#map", "uv": [10, 0.5, 11.5, 1.25], "autoUv": false, "snapUv": false},
+								"east": {"texture": "#map", "uv": [11, 0.5, 12.5, 1.25], "autoUv": false, "snapUv": false},
+								"south": {"texture": "#map", "uv": [11, 0.5, 12.5, 1.25], "autoUv": false, "snapUv": false},
+								"west": {"texture": "#map", "uv": [12, 0.5, 13.5, 1.25], "autoUv": false, "snapUv": false},
+								"up": {"texture": "#map", "uv": [10.5, 5, 12, 6.5], "autoUv": false, "snapUv": false},
+								"down": {"texture": "#map", "uv": [11, 3, 12.5, 4.5], "autoUv": false, "snapUv": false}
+							}
+						},
+						{
+							"name": "cork29_geo",
+							"from": [-0.5, 0, -0.5],
+							"to": [0.5, 1, 0.5],
+							"rotationOrigin": [-0.5, 0, -0.5],
+							"faces": {
+								"north": {"texture": "#map", "uv": [10, 3.5, 11, 4.5], "autoUv": false, "snapUv": false},
+								"east": {"texture": "#map", "uv": [11.5, 3.5, 12.5, 4.5], "autoUv": false, "snapUv": false},
+								"south": {"texture": "#map", "uv": [10.5, 3.5, 11.5, 4.5], "autoUv": false, "snapUv": false},
+								"west": {"texture": "#map", "uv": [11.5, 3.5, 12.5, 4.5], "autoUv": false, "snapUv": false},
+								"down": {"texture": "#map", "uv": [11.5, 7, 12.5, 8], "autoUv": false, "snapUv": false}
+							},
+							"renderPass": 3
+						}
+					]
+				},
+				{
+					"name": "cork30",
+					"from": [0.5, 1.7, -3.9],
+					"to": [0.5, 1.7, -3.9],
+					"rotationOrigin": [0.5, 1.7, -3.9],
+					"rotationY": 45,
+					"rotationZ": -180,
+					"children": [
+						{
+							"name": "corkpart30",
+							"from": [-0.75, 0.95, -0.75],
+							"to": [0.75, 1.7, 0.75],
+							"rotationOrigin": [-0.5, 1, -0.5],
+							"faces": {
+								"north": {"texture": "#map", "uv": [10, 0.5, 11.5, 1.25], "autoUv": false, "snapUv": false},
+								"east": {"texture": "#map", "uv": [11, 0.5, 12.5, 1.25], "autoUv": false, "snapUv": false},
+								"south": {"texture": "#map", "uv": [11, 0.5, 12.5, 1.25], "autoUv": false, "snapUv": false},
+								"west": {"texture": "#map", "uv": [12, 0.5, 13.5, 1.25], "autoUv": false, "snapUv": false},
+								"up": {"texture": "#map", "uv": [10.5, 5, 12, 6.5], "autoUv": false, "snapUv": false},
+								"down": {"texture": "#map", "uv": [11, 3, 12.5, 4.5], "autoUv": false, "snapUv": false}
+							}
+						},
+						{
+							"name": "cork30_geo",
+							"from": [-0.5, 0, -0.5],
+							"to": [0.5, 1, 0.5],
+							"rotationOrigin": [-0.5, 0, -0.5],
+							"faces": {
+								"north": {"texture": "#map", "uv": [10, 3.5, 11, 4.5], "autoUv": false, "snapUv": false},
+								"east": {"texture": "#map", "uv": [11.5, 3.5, 12.5, 4.5], "autoUv": false, "snapUv": false},
+								"south": {"texture": "#map", "uv": [10.5, 3.5, 11.5, 4.5], "autoUv": false, "snapUv": false},
+								"west": {"texture": "#map", "uv": [11.5, 3.5, 12.5, 4.5], "autoUv": false, "snapUv": false},
+								"down": {"texture": "#map", "uv": [11.5, 7, 12.5, 8], "autoUv": false, "snapUv": false}
+							},
+							"renderPass": 3
+						}
+					]
+				},
+				{
+					"name": "cork31",
+					"from": [-0.9, 0.3, -4.2],
+					"to": [-0.9, 0.3, -4.2],
+					"rotationOrigin": [-0.9, 0.3, -4.2],
+					"rotationZ": 67.5,
+					"children": [
+						{
+							"name": "corkpart31",
+							"from": [-0.75, 0.95, -0.75],
+							"to": [0.75, 1.7, 0.75],
+							"rotationOrigin": [-0.5, 1, -0.5],
+							"faces": {
+								"north": {"texture": "#map", "uv": [10, 0.5, 11.5, 1.25], "autoUv": false, "snapUv": false},
+								"east": {"texture": "#map", "uv": [11, 0.5, 12.5, 1.25], "autoUv": false, "snapUv": false},
+								"south": {"texture": "#map", "uv": [11, 0.5, 12.5, 1.25], "autoUv": false, "snapUv": false},
+								"west": {"texture": "#map", "uv": [12, 0.5, 13.5, 1.25], "autoUv": false, "snapUv": false},
+								"up": {"texture": "#map", "uv": [10.5, 5, 12, 6.5], "autoUv": false, "snapUv": false},
+								"down": {"texture": "#map", "uv": [11, 3, 12.5, 4.5], "autoUv": false, "snapUv": false}
+							}
+						},
+						{
+							"name": "cork31_geo",
+							"from": [-0.5, 0, -0.5],
+							"to": [0.5, 1, 0.5],
+							"rotationOrigin": [-0.5, 0, -0.5],
+							"faces": {
+								"north": {"texture": "#map", "uv": [10, 3.5, 11, 4.5], "autoUv": false, "snapUv": false},
+								"east": {"texture": "#map", "uv": [11.5, 3.5, 12.5, 4.5], "autoUv": false, "snapUv": false},
+								"south": {"texture": "#map", "uv": [10.5, 3.5, 11.5, 4.5], "autoUv": false, "snapUv": false},
+								"west": {"texture": "#map", "uv": [11.5, 3.5, 12.5, 4.5], "autoUv": false, "snapUv": false},
+								"down": {"texture": "#map", "uv": [11.5, 7, 12.5, 8], "autoUv": false, "snapUv": false}
+							},
+							"renderPass": 3
+						}
+					]
+				},
+				{
+					"name": "cork32",
+					"from": [-4.3, 0.7, -0.5],
+					"to": [-4.3, 0.7, -0.5],
+					"rotationOrigin": [-4.3, 0.7, -0.5],
+					"rotationY": 45,
+					"rotationZ": 90,
+					"children": [
+						{
+							"name": "corkpart32",
+							"from": [-0.75, 0.95, -0.75],
+							"to": [0.75, 1.7, 0.75],
+							"rotationOrigin": [-0.5, 1, -0.5],
+							"faces": {
+								"north": {"texture": "#map", "uv": [10, 0.5, 11.5, 1.25], "autoUv": false, "snapUv": false},
+								"east": {"texture": "#map", "uv": [11, 0.5, 12.5, 1.25], "autoUv": false, "snapUv": false},
+								"south": {"texture": "#map", "uv": [11, 0.5, 12.5, 1.25], "autoUv": false, "snapUv": false},
+								"west": {"texture": "#map", "uv": [12, 0.5, 13.5, 1.25], "autoUv": false, "snapUv": false},
+								"up": {"texture": "#map", "uv": [10.5, 5, 12, 6.5], "autoUv": false, "snapUv": false},
+								"down": {"texture": "#map", "uv": [11, 3, 12.5, 4.5], "autoUv": false, "snapUv": false}
+							}
+						},
+						{
+							"name": "cork32_geo",
+							"from": [-0.5, 0, -0.5],
+							"to": [0.5, 1, 0.5],
+							"rotationOrigin": [-0.5, 0, -0.5],
+							"faces": {
+								"north": {"texture": "#map", "uv": [10, 3.5, 11, 4.5], "autoUv": false, "snapUv": false},
+								"east": {"texture": "#map", "uv": [11.5, 3.5, 12.5, 4.5], "autoUv": false, "snapUv": false},
+								"south": {"texture": "#map", "uv": [10.5, 3.5, 11.5, 4.5], "autoUv": false, "snapUv": false},
+								"west": {"texture": "#map", "uv": [11.5, 3.5, 12.5, 4.5], "autoUv": false, "snapUv": false},
+								"down": {"texture": "#map", "uv": [11.5, 7, 12.5, 8], "autoUv": false, "snapUv": false}
+							},
+							"renderPass": 3
+						}
+					]
+				},
+				{
+					"name": "cork33",
+					"from": [-1.5, 1.4, 2.9],
+					"to": [-1.5, 1.4, 2.9],
+					"rotationOrigin": [-1.5, 1.4, 2.9],
+					"rotationX": 22.5,
+					"rotationY": 22.5,
+					"rotationZ": 45,
+					"children": [
+						{
+							"name": "corkpart33",
+							"from": [-0.75, 0.95, -0.75],
+							"to": [0.75, 1.7, 0.75],
+							"rotationOrigin": [-0.5, 1, -0.5],
+							"faces": {
+								"north": {"texture": "#map", "uv": [10, 0.5, 11.5, 1.25], "autoUv": false, "snapUv": false},
+								"east": {"texture": "#map", "uv": [11, 0.5, 12.5, 1.25], "autoUv": false, "snapUv": false},
+								"south": {"texture": "#map", "uv": [11, 0.5, 12.5, 1.25], "autoUv": false, "snapUv": false},
+								"west": {"texture": "#map", "uv": [12, 0.5, 13.5, 1.25], "autoUv": false, "snapUv": false},
+								"up": {"texture": "#map", "uv": [10.5, 5, 12, 6.5], "autoUv": false, "snapUv": false},
+								"down": {"texture": "#map", "uv": [11, 3, 12.5, 4.5], "autoUv": false, "snapUv": false}
+							}
+						},
+						{
+							"name": "cork33_geo",
+							"from": [-0.5, 0, -0.5],
+							"to": [0.5, 1, 0.5],
+							"rotationOrigin": [-0.5, 0, -0.5],
+							"faces": {
+								"north": {"texture": "#map", "uv": [10, 3.5, 11, 4.5], "autoUv": false, "snapUv": false},
+								"east": {"texture": "#map", "uv": [11.5, 3.5, 12.5, 4.5], "autoUv": false, "snapUv": false},
+								"south": {"texture": "#map", "uv": [10.5, 3.5, 11.5, 4.5], "autoUv": false, "snapUv": false},
+								"west": {"texture": "#map", "uv": [11.5, 3.5, 12.5, 4.5], "autoUv": false, "snapUv": false},
+								"down": {"texture": "#map", "uv": [11.5, 7, 12.5, 8], "autoUv": false, "snapUv": false}
+							},
+							"renderPass": 3
+						}
+					]
+				},
+				{
+					"name": "cork34",
+					"from": [-0.3, 0.2, 4.3],
+					"to": [-0.3, 0.2, 4.3],
+					"rotationOrigin": [-0.3, 0.2, 4.3],
+					"rotationX": 45,
+					"rotationY": 45,
+					"children": [
+						{
+							"name": "corkpart34",
+							"from": [-0.75, 0.95, -0.75],
+							"to": [0.75, 1.7, 0.75],
+							"rotationOrigin": [-0.5, 1, -0.5],
+							"faces": {
+								"north": {"texture": "#map", "uv": [10, 0.5, 11.5, 1.25], "autoUv": false, "snapUv": false},
+								"east": {"texture": "#map", "uv": [11, 0.5, 12.5, 1.25], "autoUv": false, "snapUv": false},
+								"south": {"texture": "#map", "uv": [11, 0.5, 12.5, 1.25], "autoUv": false, "snapUv": false},
+								"west": {"texture": "#map", "uv": [12, 0.5, 13.5, 1.25], "autoUv": false, "snapUv": false},
+								"up": {"texture": "#map", "uv": [10.5, 5, 12, 6.5], "autoUv": false, "snapUv": false},
+								"down": {"texture": "#map", "uv": [11, 3, 12.5, 4.5], "autoUv": false, "snapUv": false}
+							}
+						},
+						{
+							"name": "cork34_geo",
+							"from": [-0.5, 0, -0.5],
+							"to": [0.5, 1, 0.5],
+							"rotationOrigin": [-0.5, 0, -0.5],
+							"faces": {
+								"north": {"texture": "#map", "uv": [10, 3.5, 11, 4.5], "autoUv": false, "snapUv": false},
+								"east": {"texture": "#map", "uv": [11.5, 3.5, 12.5, 4.5], "autoUv": false, "snapUv": false},
+								"south": {"texture": "#map", "uv": [10.5, 3.5, 11.5, 4.5], "autoUv": false, "snapUv": false},
+								"west": {"texture": "#map", "uv": [11.5, 3.5, 12.5, 4.5], "autoUv": false, "snapUv": false},
+								"down": {"texture": "#map", "uv": [11.5, 7, 12.5, 8], "autoUv": false, "snapUv": false}
+							},
+							"renderPass": 3
+						}
+					]
+				},
+				{
+					"name": "cork35",
+					"from": [2.7, 1.75, 5.2],
+					"to": [2.7, 1.75, 5.2],
+					"rotationOrigin": [2.7, 1.75, 5.2],
+					"rotationX": 180,
+					"rotationY": 45,
+					"children": [
+						{
+							"name": "corkpart35",
+							"from": [-0.75, 0.95, -0.75],
+							"to": [0.75, 1.7, 0.75],
+							"rotationOrigin": [-0.5, 1, -0.5],
+							"faces": {
+								"north": {"texture": "#map", "uv": [10, 0.5, 11.5, 1.25], "autoUv": false, "snapUv": false},
+								"east": {"texture": "#map", "uv": [11, 0.5, 12.5, 1.25], "autoUv": false, "snapUv": false},
+								"south": {"texture": "#map", "uv": [11, 0.5, 12.5, 1.25], "autoUv": false, "snapUv": false},
+								"west": {"texture": "#map", "uv": [12, 0.5, 13.5, 1.25], "autoUv": false, "snapUv": false},
+								"up": {"texture": "#map", "uv": [10.5, 5, 12, 6.5], "autoUv": false, "snapUv": false},
+								"down": {"texture": "#map", "uv": [11, 3, 12.5, 4.5], "autoUv": false, "snapUv": false}
+							}
+						},
+						{
+							"name": "cork35_geo",
+							"from": [-0.5, 0, -0.5],
+							"to": [0.5, 1, 0.5],
+							"rotationOrigin": [-0.5, 0, -0.5],
+							"faces": {
+								"north": {"texture": "#map", "uv": [10, 3.5, 11, 4.5], "autoUv": false, "snapUv": false},
+								"east": {"texture": "#map", "uv": [11.5, 3.5, 12.5, 4.5], "autoUv": false, "snapUv": false},
+								"south": {"texture": "#map", "uv": [10.5, 3.5, 11.5, 4.5], "autoUv": false, "snapUv": false},
+								"west": {"texture": "#map", "uv": [11.5, 3.5, 12.5, 4.5], "autoUv": false, "snapUv": false},
+								"down": {"texture": "#map", "uv": [11.5, 7, 12.5, 8], "autoUv": false, "snapUv": false}
+							},
+							"renderPass": 3
+						}
+					]
+				},
+				{
+					"name": "cork36",
+					"from": [2.5, 1.45, 4.3],
+					"to": [2.5, 1.45, 4.3],
+					"rotationOrigin": [2.5, 1.45, 4.3],
+					"rotationX": -22.5,
+					"rotationY": -22.5,
+					"rotationZ": 22.5,
+					"children": [
+						{
+							"name": "corkpart36",
+							"from": [-0.75, 0.95, -0.75],
+							"to": [0.75, 1.7, 0.75],
+							"rotationOrigin": [-0.5, 1, -0.5],
+							"faces": {
+								"north": {"texture": "#map", "uv": [10, 0.5, 11.5, 1.25], "autoUv": false, "snapUv": false},
+								"east": {"texture": "#map", "uv": [11, 0.5, 12.5, 1.25], "autoUv": false, "snapUv": false},
+								"south": {"texture": "#map", "uv": [11, 0.5, 12.5, 1.25], "autoUv": false, "snapUv": false},
+								"west": {"texture": "#map", "uv": [12, 0.5, 13.5, 1.25], "autoUv": false, "snapUv": false},
+								"up": {"texture": "#map", "uv": [10.5, 5, 12, 6.5], "autoUv": false, "snapUv": false},
+								"down": {"texture": "#map", "uv": [11, 3, 12.5, 4.5], "autoUv": false, "snapUv": false}
+							}
+						},
+						{
+							"name": "cork36_geo",
+							"from": [-0.5, 0, -0.5],
+							"to": [0.5, 1, 0.5],
+							"rotationOrigin": [-0.5, 0, -0.5],
+							"faces": {
+								"north": {"texture": "#map", "uv": [10, 3.5, 11, 4.5], "autoUv": false, "snapUv": false},
+								"east": {"texture": "#map", "uv": [11.5, 3.5, 12.5, 4.5], "autoUv": false, "snapUv": false},
+								"south": {"texture": "#map", "uv": [10.5, 3.5, 11.5, 4.5], "autoUv": false, "snapUv": false},
+								"west": {"texture": "#map", "uv": [11.5, 3.5, 12.5, 4.5], "autoUv": false, "snapUv": false},
+								"down": {"texture": "#map", "uv": [11.5, 7, 12.5, 8], "autoUv": false, "snapUv": false}
+							},
+							"renderPass": 3
+						}
+					]
+				},
+				{
+					"name": "cork37",
+					"from": [5.2, 0.05, 0.9],
+					"to": [5.2, 0.05, 0.9],
+					"rotationOrigin": [5.2, 0.05, 0.9],
+					"rotationX": -112.5,
+					"rotationY": 67.5,
+					"rotationZ": 112.5,
+					"children": [
+						{
+							"name": "corkpart37",
+							"from": [-0.75, 0.95, -0.75],
+							"to": [0.75, 1.7, 0.75],
+							"rotationOrigin": [-0.5, 1, -0.5],
+							"faces": {
+								"north": {"texture": "#map", "uv": [10, 0.5, 11.5, 1.25], "autoUv": false, "snapUv": false},
+								"east": {"texture": "#map", "uv": [11, 0.5, 12.5, 1.25], "autoUv": false, "snapUv": false},
+								"south": {"texture": "#map", "uv": [11, 0.5, 12.5, 1.25], "autoUv": false, "snapUv": false},
+								"west": {"texture": "#map", "uv": [12, 0.5, 13.5, 1.25], "autoUv": false, "snapUv": false},
+								"up": {"texture": "#map", "uv": [10.5, 5, 12, 6.5], "autoUv": false, "snapUv": false},
+								"down": {"texture": "#map", "uv": [11, 3, 12.5, 4.5], "autoUv": false, "snapUv": false}
+							}
+						},
+						{
+							"name": "cork37_geo",
+							"from": [-0.5, 0, -0.5],
+							"to": [0.5, 1, 0.5],
+							"rotationOrigin": [-0.5, 0, -0.5],
+							"faces": {
+								"north": {"texture": "#map", "uv": [10, 3.5, 11, 4.5], "autoUv": false, "snapUv": false},
+								"east": {"texture": "#map", "uv": [11.5, 3.5, 12.5, 4.5], "autoUv": false, "snapUv": false},
+								"south": {"texture": "#map", "uv": [10.5, 3.5, 11.5, 4.5], "autoUv": false, "snapUv": false},
+								"west": {"texture": "#map", "uv": [11.5, 3.5, 12.5, 4.5], "autoUv": false, "snapUv": false},
+								"down": {"texture": "#map", "uv": [11.5, 7, 12.5, 8], "autoUv": false, "snapUv": false}
+							},
+							"renderPass": 3
+						}
+					]
+				},
+				{
+					"name": "cork38",
+					"from": [3.3, 0.5, -0.1],
+					"to": [3.3, 0.5, -0.1],
+					"rotationOrigin": [3.3, 0.5, -0.1],
+					"rotationY": 22.5,
+					"children": [
+						{
+							"name": "corkpart38",
+							"from": [-0.75, 0.95, -0.75],
+							"to": [0.75, 1.7, 0.75],
+							"rotationOrigin": [-0.5, 1, -0.5],
+							"faces": {
+								"north": {"texture": "#map", "uv": [10, 0.5, 11.5, 1.25], "autoUv": false, "snapUv": false},
+								"east": {"texture": "#map", "uv": [11, 0.5, 12.5, 1.25], "autoUv": false, "snapUv": false},
+								"south": {"texture": "#map", "uv": [11, 0.5, 12.5, 1.25], "autoUv": false, "snapUv": false},
+								"west": {"texture": "#map", "uv": [12, 0.5, 13.5, 1.25], "autoUv": false, "snapUv": false},
+								"up": {"texture": "#map", "uv": [10.5, 5, 12, 6.5], "autoUv": false, "snapUv": false},
+								"down": {"texture": "#map", "uv": [11, 3, 12.5, 4.5], "autoUv": false, "snapUv": false}
+							}
+						},
+						{
+							"name": "cork38_geo",
+							"from": [-0.5, 0, -0.5],
+							"to": [0.5, 1, 0.5],
+							"rotationOrigin": [-0.5, 0, -0.5],
+							"faces": {
+								"north": {"texture": "#map", "uv": [10, 3.5, 11, 4.5], "autoUv": false, "snapUv": false},
+								"east": {"texture": "#map", "uv": [11.5, 3.5, 12.5, 4.5], "autoUv": false, "snapUv": false},
+								"south": {"texture": "#map", "uv": [10.5, 3.5, 11.5, 4.5], "autoUv": false, "snapUv": false},
+								"west": {"texture": "#map", "uv": [11.5, 3.5, 12.5, 4.5], "autoUv": false, "snapUv": false},
+								"down": {"texture": "#map", "uv": [11.5, 7, 12.5, 8], "autoUv": false, "snapUv": false}
+							},
+							"renderPass": 3
+						}
+					]
+				},
+				{
+					"name": "cork39",
+					"from": [2.2, 1.5, -1.8],
+					"to": [2.2, 1.5, -1.8],
+					"rotationOrigin": [2.2, 1.5, -1.8],
+					"rotationX": -22.5,
+					"rotationY": 45,
+					"rotationZ": 22.5,
+					"children": [
+						{
+							"name": "corkpart39",
+							"from": [-0.75, 0.95, -0.75],
+							"to": [0.75, 1.7, 0.75],
+							"rotationOrigin": [-0.5, 1, -0.5],
+							"faces": {
+								"north": {"texture": "#map", "uv": [10, 0.5, 11.5, 1.25], "autoUv": false, "snapUv": false},
+								"east": {"texture": "#map", "uv": [11, 0.5, 12.5, 1.25], "autoUv": false, "snapUv": false},
+								"south": {"texture": "#map", "uv": [11, 0.5, 12.5, 1.25], "autoUv": false, "snapUv": false},
+								"west": {"texture": "#map", "uv": [12, 0.5, 13.5, 1.25], "autoUv": false, "snapUv": false},
+								"up": {"texture": "#map", "uv": [10.5, 5, 12, 6.5], "autoUv": false, "snapUv": false},
+								"down": {"texture": "#map", "uv": [11, 3, 12.5, 4.5], "autoUv": false, "snapUv": false}
+							}
+						},
+						{
+							"name": "cork39_geo",
+							"from": [-0.5, 0, -0.5],
+							"to": [0.5, 1, 0.5],
+							"rotationOrigin": [-0.5, 0, -0.5],
+							"faces": {
+								"north": {"texture": "#map", "uv": [10, 3.5, 11, 4.5], "autoUv": false, "snapUv": false},
+								"east": {"texture": "#map", "uv": [11.5, 3.5, 12.5, 4.5], "autoUv": false, "snapUv": false},
+								"south": {"texture": "#map", "uv": [10.5, 3.5, 11.5, 4.5], "autoUv": false, "snapUv": false},
+								"west": {"texture": "#map", "uv": [11.5, 3.5, 12.5, 4.5], "autoUv": false, "snapUv": false},
+								"down": {"texture": "#map", "uv": [11.5, 7, 12.5, 8], "autoUv": false, "snapUv": false}
+							},
+							"renderPass": 3
+						}
+					]
+				},
+				{
+					"name": "cork40",
+					"from": [-1.6, 1.4, -3.3],
+					"to": [-1.6, 1.4, -3.3],
+					"rotationOrigin": [-1.6, 1.4, -3.3],
+					"rotationX": 22.5,
+					"rotationY": -45,
+					"children": [
+						{
+							"name": "corkpart40",
+							"from": [-0.75, 0.95, -0.75],
+							"to": [0.75, 1.7, 0.75],
+							"rotationOrigin": [-0.5, 1, -0.5],
+							"faces": {
+								"north": {"texture": "#map", "uv": [10, 0.5, 11.5, 1.25], "autoUv": false, "snapUv": false},
+								"east": {"texture": "#map", "uv": [11, 0.5, 12.5, 1.25], "autoUv": false, "snapUv": false},
+								"south": {"texture": "#map", "uv": [11, 0.5, 12.5, 1.25], "autoUv": false, "snapUv": false},
+								"west": {"texture": "#map", "uv": [12, 0.5, 13.5, 1.25], "autoUv": false, "snapUv": false},
+								"up": {"texture": "#map", "uv": [10.5, 5, 12, 6.5], "autoUv": false, "snapUv": false},
+								"down": {"texture": "#map", "uv": [11, 3, 12.5, 4.5], "autoUv": false, "snapUv": false}
+							}
+						},
+						{
+							"name": "cork40_geo",
+							"from": [-0.5, 0, -0.5],
+							"to": [0.5, 1, 0.5],
+							"rotationOrigin": [-0.5, 0, -0.5],
+							"faces": {
+								"north": {"texture": "#map", "uv": [10, 3.5, 11, 4.5], "autoUv": false, "snapUv": false},
+								"east": {"texture": "#map", "uv": [11.5, 3.5, 12.5, 4.5], "autoUv": false, "snapUv": false},
+								"south": {"texture": "#map", "uv": [10.5, 3.5, 11.5, 4.5], "autoUv": false, "snapUv": false},
+								"west": {"texture": "#map", "uv": [11.5, 3.5, 12.5, 4.5], "autoUv": false, "snapUv": false},
+								"down": {"texture": "#map", "uv": [11.5, 7, 12.5, 8], "autoUv": false, "snapUv": false}
+							},
+							"renderPass": 3
+						}
+					]
+				},
+				{
+					"name": "cork41",
+					"from": [-3.7, 1.9, -1.9],
+					"to": [-3.7, 1.9, -1.9],
+					"rotationOrigin": [-3.7, 1.9, -1.9],
+					"rotationX": 90,
+					"rotationY": 45,
+					"rotationZ": -67.5,
+					"children": [
+						{
+							"name": "corkpart41",
+							"from": [-0.75, 0.95, -0.75],
+							"to": [0.75, 1.7, 0.75],
+							"rotationOrigin": [-0.5, 1, -0.5],
+							"faces": {
+								"north": {"texture": "#map", "uv": [10, 0.5, 11.5, 1.25], "autoUv": false, "snapUv": false},
+								"east": {"texture": "#map", "uv": [11, 0.5, 12.5, 1.25], "autoUv": false, "snapUv": false},
+								"south": {"texture": "#map", "uv": [11, 0.5, 12.5, 1.25], "autoUv": false, "snapUv": false},
+								"west": {"texture": "#map", "uv": [12, 0.5, 13.5, 1.25], "autoUv": false, "snapUv": false},
+								"up": {"texture": "#map", "uv": [10.5, 5, 12, 6.5], "autoUv": false, "snapUv": false},
+								"down": {"texture": "#map", "uv": [11, 3, 12.5, 4.5], "autoUv": false, "snapUv": false}
+							}
+						},
+						{
+							"name": "cork41_geo",
+							"from": [-0.5, 0, -0.5],
+							"to": [0.5, 1, 0.5],
+							"rotationOrigin": [-0.5, 0, -0.5],
+							"faces": {
+								"north": {"texture": "#map", "uv": [10, 3.5, 11, 4.5], "autoUv": false, "snapUv": false},
+								"east": {"texture": "#map", "uv": [11.5, 3.5, 12.5, 4.5], "autoUv": false, "snapUv": false},
+								"south": {"texture": "#map", "uv": [10.5, 3.5, 11.5, 4.5], "autoUv": false, "snapUv": false},
+								"west": {"texture": "#map", "uv": [11.5, 3.5, 12.5, 4.5], "autoUv": false, "snapUv": false},
+								"down": {"texture": "#map", "uv": [11.5, 7, 12.5, 8], "autoUv": false, "snapUv": false}
+							},
+							"renderPass": 3
+						}
+					]
+				},
+				{
+					"name": "cork42",
+					"from": [-4.7, 1.7, 2.1],
+					"to": [-4.7, 1.7, 2.1],
+					"rotationOrigin": [-4.7, 1.7, 2.1],
+					"rotationZ": 157.5,
+					"children": [
+						{
+							"name": "corkpart42",
+							"from": [-0.75, 0.95, -0.75],
+							"to": [0.75, 1.7, 0.75],
+							"rotationOrigin": [-0.5, 1, -0.5],
+							"faces": {
+								"north": {"texture": "#map", "uv": [10, 0.5, 11.5, 1.25], "autoUv": false, "snapUv": false},
+								"east": {"texture": "#map", "uv": [11, 0.5, 12.5, 1.25], "autoUv": false, "snapUv": false},
+								"south": {"texture": "#map", "uv": [11, 0.5, 12.5, 1.25], "autoUv": false, "snapUv": false},
+								"west": {"texture": "#map", "uv": [12, 0.5, 13.5, 1.25], "autoUv": false, "snapUv": false},
+								"up": {"texture": "#map", "uv": [10.5, 5, 12, 6.5], "autoUv": false, "snapUv": false},
+								"down": {"texture": "#map", "uv": [11, 3, 12.5, 4.5], "autoUv": false, "snapUv": false}
+							}
+						},
+						{
+							"name": "cork42_geo",
+							"from": [-0.5, 0, -0.5],
+							"to": [0.5, 1, 0.5],
+							"rotationOrigin": [-0.5, 0, -0.5],
+							"faces": {
+								"north": {"texture": "#map", "uv": [10, 3.5, 11, 4.5], "autoUv": false, "snapUv": false},
+								"east": {"texture": "#map", "uv": [11.5, 3.5, 12.5, 4.5], "autoUv": false, "snapUv": false},
+								"south": {"texture": "#map", "uv": [10.5, 3.5, 11.5, 4.5], "autoUv": false, "snapUv": false},
+								"west": {"texture": "#map", "uv": [11.5, 3.5, 12.5, 4.5], "autoUv": false, "snapUv": false},
+								"down": {"texture": "#map", "uv": [11.5, 7, 12.5, 8], "autoUv": false, "snapUv": false}
+							},
+							"renderPass": 3
+						}
+					]
+				},
+				{
+					"name": "cork43",
+					"from": [-2.7, 2.7, 1.1],
+					"to": [-2.7, 2.7, 1.1],
+					"rotationOrigin": [-2.7, 2.7, 1.1],
+					"rotationX": -67.5,
+					"rotationZ": 157.5,
+					"children": [
+						{
+							"name": "corkpart43",
+							"from": [-0.75, 0.95, -0.75],
+							"to": [0.75, 1.7, 0.75],
+							"rotationOrigin": [-0.5, 1, -0.5],
+							"faces": {
+								"north": {"texture": "#map", "uv": [10, 0.5, 11.5, 1.25], "autoUv": false, "snapUv": false},
+								"east": {"texture": "#map", "uv": [11, 0.5, 12.5, 1.25], "autoUv": false, "snapUv": false},
+								"south": {"texture": "#map", "uv": [11, 0.5, 12.5, 1.25], "autoUv": false, "snapUv": false},
+								"west": {"texture": "#map", "uv": [12, 0.5, 13.5, 1.25], "autoUv": false, "snapUv": false},
+								"up": {"texture": "#map", "uv": [10.5, 5, 12, 6.5], "autoUv": false, "snapUv": false},
+								"down": {"texture": "#map", "uv": [11, 3, 12.5, 4.5], "autoUv": false, "snapUv": false}
+							}
+						},
+						{
+							"name": "cork43_geo",
+							"from": [-0.5, 0, -0.5],
+							"to": [0.5, 1, 0.5],
+							"rotationOrigin": [-0.5, 0, -0.5],
+							"faces": {
+								"north": {"texture": "#map", "uv": [10, 3.5, 11, 4.5], "autoUv": false, "snapUv": false},
+								"east": {"texture": "#map", "uv": [11.5, 3.5, 12.5, 4.5], "autoUv": false, "snapUv": false},
+								"south": {"texture": "#map", "uv": [10.5, 3.5, 11.5, 4.5], "autoUv": false, "snapUv": false},
+								"west": {"texture": "#map", "uv": [11.5, 3.5, 12.5, 4.5], "autoUv": false, "snapUv": false},
+								"down": {"texture": "#map", "uv": [11.5, 7, 12.5, 8], "autoUv": false, "snapUv": false}
+							},
+							"renderPass": 3
+						}
+					]
+				},
+				{
+					"name": "cork44",
+					"from": [0, 1.8, 3.7],
+					"to": [0, 1.8, 3.7],
+					"rotationOrigin": [0, 1.8, 3.7],
+					"rotationX": -67.5,
+					"rotationY": 45,
+					"rotationZ": 45,
+					"children": [
+						{
+							"name": "corkpart44",
+							"from": [-0.75, 0.95, -0.75],
+							"to": [0.75, 1.7, 0.75],
+							"rotationOrigin": [-0.5, 1, -0.5],
+							"faces": {
+								"north": {"texture": "#map", "uv": [10, 0.5, 11.5, 1.25], "autoUv": false, "snapUv": false},
+								"east": {"texture": "#map", "uv": [11, 0.5, 12.5, 1.25], "autoUv": false, "snapUv": false},
+								"south": {"texture": "#map", "uv": [11, 0.5, 12.5, 1.25], "autoUv": false, "snapUv": false},
+								"west": {"texture": "#map", "uv": [12, 0.5, 13.5, 1.25], "autoUv": false, "snapUv": false},
+								"up": {"texture": "#map", "uv": [10.5, 5, 12, 6.5], "autoUv": false, "snapUv": false},
+								"down": {"texture": "#map", "uv": [11, 3, 12.5, 4.5], "autoUv": false, "snapUv": false}
+							}
+						},
+						{
+							"name": "cork44_geo",
+							"from": [-0.5, 0, -0.5],
+							"to": [0.5, 1, 0.5],
+							"rotationOrigin": [-0.5, 0, -0.5],
+							"faces": {
+								"north": {"texture": "#map", "uv": [10, 3.5, 11, 4.5], "autoUv": false, "snapUv": false},
+								"east": {"texture": "#map", "uv": [11.5, 3.5, 12.5, 4.5], "autoUv": false, "snapUv": false},
+								"south": {"texture": "#map", "uv": [10.5, 3.5, 11.5, 4.5], "autoUv": false, "snapUv": false},
+								"west": {"texture": "#map", "uv": [11.5, 3.5, 12.5, 4.5], "autoUv": false, "snapUv": false},
+								"down": {"texture": "#map", "uv": [11.5, 7, 12.5, 8], "autoUv": false, "snapUv": false}
+							},
+							"renderPass": 3
+						}
+					]
+				},
+				{
+					"name": "cork45",
+					"from": [2.8, 2.9, 1.6],
+					"to": [2.8, 2.9, 1.6],
+					"rotationOrigin": [2.8, 2.9, 1.6],
+					"rotationX": -45,
+					"rotationY": 22.5,
+					"rotationZ": -157.5,
+					"children": [
+						{
+							"name": "corkpart45",
+							"from": [-0.75, 0.95, -0.75],
+							"to": [0.75, 1.7, 0.75],
+							"rotationOrigin": [-0.5, 1, -0.5],
+							"faces": {
+								"north": {"texture": "#map", "uv": [10, 0.5, 11.5, 1.25], "autoUv": false, "snapUv": false},
+								"east": {"texture": "#map", "uv": [11, 0.5, 12.5, 1.25], "autoUv": false, "snapUv": false},
+								"south": {"texture": "#map", "uv": [11, 0.5, 12.5, 1.25], "autoUv": false, "snapUv": false},
+								"west": {"texture": "#map", "uv": [12, 0.5, 13.5, 1.25], "autoUv": false, "snapUv": false},
+								"up": {"texture": "#map", "uv": [10.5, 5, 12, 6.5], "autoUv": false, "snapUv": false},
+								"down": {"texture": "#map", "uv": [11, 3, 12.5, 4.5], "autoUv": false, "snapUv": false}
+							}
+						},
+						{
+							"name": "cork45_geo",
+							"from": [-0.5, 0, -0.5],
+							"to": [0.5, 1, 0.5],
+							"rotationOrigin": [-0.5, 0, -0.5],
+							"faces": {
+								"north": {"texture": "#map", "uv": [10, 3.5, 11, 4.5], "autoUv": false, "snapUv": false},
+								"east": {"texture": "#map", "uv": [11.5, 3.5, 12.5, 4.5], "autoUv": false, "snapUv": false},
+								"south": {"texture": "#map", "uv": [10.5, 3.5, 11.5, 4.5], "autoUv": false, "snapUv": false},
+								"west": {"texture": "#map", "uv": [11.5, 3.5, 12.5, 4.5], "autoUv": false, "snapUv": false},
+								"down": {"texture": "#map", "uv": [11.5, 7, 12.5, 8], "autoUv": false, "snapUv": false}
+							},
+							"renderPass": 3
+						}
+					]
+				},
+				{
+					"name": "cork46",
+					"from": [3.7, 2.71, 0.1],
+					"to": [3.7, 2.71, 0.1],
+					"rotationOrigin": [3.7, 2.71, 0.1],
+					"rotationX": -90,
+					"rotationZ": 45,
+					"children": [
+						{
+							"name": "corkpart46",
+							"from": [-0.75, 0.95, -0.75],
+							"to": [0.75, 1.7, 0.75],
+							"rotationOrigin": [-0.5, 1, -0.5],
+							"faces": {
+								"north": {"texture": "#map", "uv": [10, 0.5, 11.5, 1.25], "autoUv": false, "snapUv": false},
+								"east": {"texture": "#map", "uv": [11, 0.5, 12.5, 1.25], "autoUv": false, "snapUv": false},
+								"south": {"texture": "#map", "uv": [11, 0.5, 12.5, 1.25], "autoUv": false, "snapUv": false},
+								"west": {"texture": "#map", "uv": [12, 0.5, 13.5, 1.25], "autoUv": false, "snapUv": false},
+								"up": {"texture": "#map", "uv": [10.5, 5, 12, 6.5], "autoUv": false, "snapUv": false},
+								"down": {"texture": "#map", "uv": [11, 3, 12.5, 4.5], "autoUv": false, "snapUv": false}
+							}
+						},
+						{
+							"name": "cork46_geo",
+							"from": [-0.5, 0, -0.5],
+							"to": [0.5, 1, 0.5],
+							"rotationOrigin": [-0.5, 0, -0.5],
+							"faces": {
+								"north": {"texture": "#map", "uv": [10, 3.5, 11, 4.5], "autoUv": false, "snapUv": false},
+								"east": {"texture": "#map", "uv": [11.5, 3.5, 12.5, 4.5], "autoUv": false, "snapUv": false},
+								"south": {"texture": "#map", "uv": [10.5, 3.5, 11.5, 4.5], "autoUv": false, "snapUv": false},
+								"west": {"texture": "#map", "uv": [11.5, 3.5, 12.5, 4.5], "autoUv": false, "snapUv": false},
+								"down": {"texture": "#map", "uv": [11.5, 7, 12.5, 8], "autoUv": false, "snapUv": false}
+							},
+							"renderPass": 3
+						}
+					]
+				},
+				{
+					"name": "cork47",
+					"from": [-1.6, 3.8, 0.3],
+					"to": [-1.6, 3.8, 0.3],
+					"rotationOrigin": [-1.6, 3.8, 0.3],
+					"rotationX": -90,
+					"rotationY": -45,
+					"rotationZ": 90,
+					"children": [
+						{
+							"name": "corkpart47",
+							"from": [-0.75, 0.95, -0.75],
+							"to": [0.75, 1.7, 0.75],
+							"rotationOrigin": [-0.5, 1, -0.5],
+							"faces": {
+								"north": {"texture": "#map", "uv": [10, 0.5, 11.5, 1.25], "autoUv": false, "snapUv": false},
+								"east": {"texture": "#map", "uv": [11, 0.5, 12.5, 1.25], "autoUv": false, "snapUv": false},
+								"south": {"texture": "#map", "uv": [11, 0.5, 12.5, 1.25], "autoUv": false, "snapUv": false},
+								"west": {"texture": "#map", "uv": [12, 0.5, 13.5, 1.25], "autoUv": false, "snapUv": false},
+								"up": {"texture": "#map", "uv": [10.5, 5, 12, 6.5], "autoUv": false, "snapUv": false},
+								"down": {"texture": "#map", "uv": [11, 3, 12.5, 4.5], "autoUv": false, "snapUv": false}
+							}
+						},
+						{
+							"name": "cork47_geo",
+							"from": [-0.5, 0, -0.5],
+							"to": [0.5, 1, 0.5],
+							"rotationOrigin": [-0.5, 0, -0.5],
+							"faces": {
+								"north": {"texture": "#map", "uv": [10, 3.5, 11, 4.5], "autoUv": false, "snapUv": false},
+								"east": {"texture": "#map", "uv": [11.5, 3.5, 12.5, 4.5], "autoUv": false, "snapUv": false},
+								"south": {"texture": "#map", "uv": [10.5, 3.5, 11.5, 4.5], "autoUv": false, "snapUv": false},
+								"west": {"texture": "#map", "uv": [11.5, 3.5, 12.5, 4.5], "autoUv": false, "snapUv": false},
+								"down": {"texture": "#map", "uv": [11.5, 7, 12.5, 8], "autoUv": false, "snapUv": false}
+							},
+							"renderPass": 3
+						}
+					]
+				},
+				{
+					"name": "cork48",
+					"from": [2.1, 2.7, 3.2],
+					"to": [2.1, 2.7, 3.2],
+					"rotationOrigin": [2.1, 2.7, 3.2],
+					"rotationX": -45,
+					"rotationZ": 22.5,
+					"children": [
+						{
+							"name": "corkpart48",
+							"from": [-0.75, 0.95, -0.75],
+							"to": [0.75, 1.7, 0.75],
+							"rotationOrigin": [-0.5, 1, -0.5],
+							"faces": {
+								"north": {"texture": "#map", "uv": [10, 0.5, 11.5, 1.25], "autoUv": false, "snapUv": false},
+								"east": {"texture": "#map", "uv": [11, 0.5, 12.5, 1.25], "autoUv": false, "snapUv": false},
+								"south": {"texture": "#map", "uv": [11, 0.5, 12.5, 1.25], "autoUv": false, "snapUv": false},
+								"west": {"texture": "#map", "uv": [12, 0.5, 13.5, 1.25], "autoUv": false, "snapUv": false},
+								"up": {"texture": "#map", "uv": [10.5, 5, 12, 6.5], "autoUv": false, "snapUv": false},
+								"down": {"texture": "#map", "uv": [11, 3, 12.5, 4.5], "autoUv": false, "snapUv": false}
+							}
+						},
+						{
+							"name": "cork48_geo",
+							"from": [-0.5, 0, -0.5],
+							"to": [0.5, 1, 0.5],
+							"rotationOrigin": [-0.5, 0, -0.5],
+							"faces": {
+								"north": {"texture": "#map", "uv": [10, 3.5, 11, 4.5], "autoUv": false, "snapUv": false},
+								"east": {"texture": "#map", "uv": [11.5, 3.5, 12.5, 4.5], "autoUv": false, "snapUv": false},
+								"south": {"texture": "#map", "uv": [10.5, 3.5, 11.5, 4.5], "autoUv": false, "snapUv": false},
+								"west": {"texture": "#map", "uv": [11.5, 3.5, 12.5, 4.5], "autoUv": false, "snapUv": false},
+								"down": {"texture": "#map", "uv": [11.5, 7, 12.5, 8], "autoUv": false, "snapUv": false}
+							},
+							"renderPass": 3
+						}
+					]
+				},
+				{
+					"name": "cork49",
+					"from": [2.1, 2.7, 3.2],
+					"to": [2.1, 2.7, 3.2],
+					"rotationOrigin": [2.1, 2.7, 3.2],
+					"rotationX": -45,
+					"rotationZ": 22.5,
+					"children": [
+						{
+							"name": "corkpart49",
+							"from": [-0.75, 0.95, -0.75],
+							"to": [0.75, 1.7, 0.75],
+							"rotationOrigin": [-0.5, 1, -0.5],
+							"faces": {
+								"north": {"texture": "#map", "uv": [10, 0.5, 11.5, 1.25], "autoUv": false, "snapUv": false},
+								"east": {"texture": "#map", "uv": [11, 0.5, 12.5, 1.25], "autoUv": false, "snapUv": false},
+								"south": {"texture": "#map", "uv": [11, 0.5, 12.5, 1.25], "autoUv": false, "snapUv": false},
+								"west": {"texture": "#map", "uv": [12, 0.5, 13.5, 1.25], "autoUv": false, "snapUv": false},
+								"up": {"texture": "#map", "uv": [10.5, 5, 12, 6.5], "autoUv": false, "snapUv": false},
+								"down": {"texture": "#map", "uv": [11, 3, 12.5, 4.5], "autoUv": false, "snapUv": false}
+							}
+						},
+						{
+							"name": "cork49_geo",
+							"from": [-0.5, 0, -0.5],
+							"to": [0.5, 1, 0.5],
+							"rotationOrigin": [-0.5, 0, -0.5],
+							"faces": {
+								"north": {"texture": "#map", "uv": [10, 3.5, 11, 4.5], "autoUv": false, "snapUv": false},
+								"east": {"texture": "#map", "uv": [11.5, 3.5, 12.5, 4.5], "autoUv": false, "snapUv": false},
+								"south": {"texture": "#map", "uv": [10.5, 3.5, 11.5, 4.5], "autoUv": false, "snapUv": false},
+								"west": {"texture": "#map", "uv": [11.5, 3.5, 12.5, 4.5], "autoUv": false, "snapUv": false},
+								"down": {"texture": "#map", "uv": [11.5, 7, 12.5, 8], "autoUv": false, "snapUv": false}
+							},
+							"renderPass": 3
+						}
+					]
+				},
+				{
+					"name": "cork51",
+					"from": [1.1, 3.3, 1.3],
+					"to": [1.1, 3.3, 1.3],
+					"rotationOrigin": [1.1, 3.3, 1.3],
+					"rotationX": -67.5,
+					"rotationY": -9,
+					"children": [
+						{
+							"name": "corkpart50",
+							"from": [-0.75, 0.95, -0.75],
+							"to": [0.75, 1.7, 0.75],
+							"rotationOrigin": [-0.5, 1, -0.5],
+							"faces": {
+								"north": {"texture": "#map", "uv": [10, 0.5, 11.5, 1.25], "autoUv": false, "snapUv": false},
+								"east": {"texture": "#map", "uv": [11, 0.5, 12.5, 1.25], "autoUv": false, "snapUv": false},
+								"south": {"texture": "#map", "uv": [11, 0.5, 12.5, 1.25], "autoUv": false, "snapUv": false},
+								"west": {"texture": "#map", "uv": [12, 0.5, 13.5, 1.25], "autoUv": false, "snapUv": false},
+								"up": {"texture": "#map", "uv": [10.5, 5, 12, 6.5], "autoUv": false, "snapUv": false},
+								"down": {"texture": "#map", "uv": [11, 3, 12.5, 4.5], "autoUv": false, "snapUv": false}
+							}
+						},
+						{
+							"name": "cork51_geo",
+							"from": [-0.5, 0, -0.5],
+							"to": [0.5, 1, 0.5],
+							"rotationOrigin": [-0.5, 0, -0.5],
+							"faces": {
+								"north": {"texture": "#map", "uv": [10, 3.5, 11, 4.5], "autoUv": false, "snapUv": false},
+								"east": {"texture": "#map", "uv": [11.5, 3.5, 12.5, 4.5], "autoUv": false, "snapUv": false},
+								"south": {"texture": "#map", "uv": [10.5, 3.5, 11.5, 4.5], "autoUv": false, "snapUv": false},
+								"west": {"texture": "#map", "uv": [11.5, 3.5, 12.5, 4.5], "autoUv": false, "snapUv": false},
+								"down": {"texture": "#map", "uv": [11.5, 7, 12.5, 8], "autoUv": false, "snapUv": false}
+							},
+							"renderPass": 3
+						}
+					]
+				},
+				{
+					"name": "cork50",
+					"from": [0.7, 2.5, -4],
+					"to": [0.7, 2.5, -4],
+					"rotationOrigin": [0.7, 2.5, -4],
+					"rotationY": 45,
+					"rotationZ": 112.5,
+					"children": [
+						{
+							"name": "corkpart51",
+							"from": [-0.75, 0.95, -0.75],
+							"to": [0.75, 1.7, 0.75],
+							"rotationOrigin": [-0.5, 1, -0.5],
+							"faces": {
+								"north": {"texture": "#map", "uv": [10, 0.5, 11.5, 1.25], "autoUv": false, "snapUv": false},
+								"east": {"texture": "#map", "uv": [11, 0.5, 12.5, 1.25], "autoUv": false, "snapUv": false},
+								"south": {"texture": "#map", "uv": [11, 0.5, 12.5, 1.25], "autoUv": false, "snapUv": false},
+								"west": {"texture": "#map", "uv": [12, 0.5, 13.5, 1.25], "autoUv": false, "snapUv": false},
+								"up": {"texture": "#map", "uv": [10.5, 5, 12, 6.5], "autoUv": false, "snapUv": false},
+								"down": {"texture": "#map", "uv": [11, 3, 12.5, 4.5], "autoUv": false, "snapUv": false}
+							}
+						},
+						{
+							"name": "cork50_geo",
+							"from": [-0.5, 0, -0.5],
+							"to": [0.5, 1, 0.5],
+							"rotationOrigin": [-0.5, 0, -0.5],
+							"faces": {
+								"north": {"texture": "#map", "uv": [10, 3.5, 11, 4.5], "autoUv": false, "snapUv": false},
+								"east": {"texture": "#map", "uv": [11.5, 3.5, 12.5, 4.5], "autoUv": false, "snapUv": false},
+								"south": {"texture": "#map", "uv": [10.5, 3.5, 11.5, 4.5], "autoUv": false, "snapUv": false},
+								"west": {"texture": "#map", "uv": [11.5, 3.5, 12.5, 4.5], "autoUv": false, "snapUv": false},
+								"down": {"texture": "#map", "uv": [11.5, 7, 12.5, 8], "autoUv": false, "snapUv": false}
+							},
+							"renderPass": 3
+						}
+					]
+				},
+				{
+					"name": "cork52",
+					"from": [-0.6, 4.2, -1.8],
+					"to": [-0.6, 4.2, -1.8],
+					"rotationOrigin": [-0.6, 4.2, -1.8],
+					"rotationX": 90,
+					"rotationY": 22.5,
+					"rotationZ": 90,
+					"children": [
+						{
+							"name": "corkpart52",
+							"from": [-0.75, 0.95, -0.75],
+							"to": [0.75, 1.7, 0.75],
+							"rotationOrigin": [-0.5, 1, -0.5],
+							"faces": {
+								"north": {"texture": "#map", "uv": [10, 0.5, 11.5, 1.25], "autoUv": false, "snapUv": false},
+								"east": {"texture": "#map", "uv": [11, 0.5, 12.5, 1.25], "autoUv": false, "snapUv": false},
+								"south": {"texture": "#map", "uv": [11, 0.5, 12.5, 1.25], "autoUv": false, "snapUv": false},
+								"west": {"texture": "#map", "uv": [12, 0.5, 13.5, 1.25], "autoUv": false, "snapUv": false},
+								"up": {"texture": "#map", "uv": [10.5, 5, 12, 6.5], "autoUv": false, "snapUv": false},
+								"down": {"texture": "#map", "uv": [11, 3, 12.5, 4.5], "autoUv": false, "snapUv": false}
+							}
+						},
+						{
+							"name": "cork52_geo",
+							"from": [-0.5, 0, -0.5],
+							"to": [0.5, 1, 0.5],
+							"rotationOrigin": [-0.5, 0, -0.5],
+							"faces": {
+								"north": {"texture": "#map", "uv": [10, 3.5, 11, 4.5], "autoUv": false, "snapUv": false},
+								"east": {"texture": "#map", "uv": [11.5, 3.5, 12.5, 4.5], "autoUv": false, "snapUv": false},
+								"south": {"texture": "#map", "uv": [10.5, 3.5, 11.5, 4.5], "autoUv": false, "snapUv": false},
+								"west": {"texture": "#map", "uv": [11.5, 3.5, 12.5, 4.5], "autoUv": false, "snapUv": false},
+								"down": {"texture": "#map", "uv": [11.5, 7, 12.5, 8], "autoUv": false, "snapUv": false}
+							},
+							"renderPass": 3
+						}
+					]
+				},
+				{
+					"name": "cork53",
+					"from": [-2.4, 3.2, 2.5],
+					"to": [-2.4, 3.2, 2.5],
+					"rotationOrigin": [-2.4, 3.2, 2.5],
+					"rotationY": 22.5,
+					"rotationZ": -67.5,
+					"children": [
+						{
+							"name": "corkpart53",
+							"from": [-0.75, 0.95, -0.75],
+							"to": [0.75, 1.7, 0.75],
+							"rotationOrigin": [-0.5, 1, -0.5],
+							"faces": {
+								"north": {"texture": "#map", "uv": [10, 0.5, 11.5, 1.25], "autoUv": false, "snapUv": false},
+								"east": {"texture": "#map", "uv": [11, 0.5, 12.5, 1.25], "autoUv": false, "snapUv": false},
+								"south": {"texture": "#map", "uv": [11, 0.5, 12.5, 1.25], "autoUv": false, "snapUv": false},
+								"west": {"texture": "#map", "uv": [12, 0.5, 13.5, 1.25], "autoUv": false, "snapUv": false},
+								"up": {"texture": "#map", "uv": [10.5, 5, 12, 6.5], "autoUv": false, "snapUv": false},
+								"down": {"texture": "#map", "uv": [11, 3, 12.5, 4.5], "autoUv": false, "snapUv": false}
+							}
+						},
+						{
+							"name": "cork53_geo",
+							"from": [-0.5, 0, -0.5],
+							"to": [0.5, 1, 0.5],
+							"rotationOrigin": [-0.5, 0, -0.5],
+							"faces": {
+								"north": {"texture": "#map", "uv": [10, 3.5, 11, 4.5], "autoUv": false, "snapUv": false},
+								"east": {"texture": "#map", "uv": [11.5, 3.5, 12.5, 4.5], "autoUv": false, "snapUv": false},
+								"south": {"texture": "#map", "uv": [10.5, 3.5, 11.5, 4.5], "autoUv": false, "snapUv": false},
+								"west": {"texture": "#map", "uv": [11.5, 3.5, 12.5, 4.5], "autoUv": false, "snapUv": false},
+								"down": {"texture": "#map", "uv": [11.5, 7, 12.5, 8], "autoUv": false, "snapUv": false}
+							},
+							"renderPass": 3
+						}
+					]
+				},
+				{
+					"name": "cork54",
+					"from": [0.25, 3.2, 2.3],
+					"to": [0.25, 3.2, 2.3],
+					"rotationOrigin": [0.25, 3.2, 2.3],
+					"rotationX": -67.5,
+					"rotationY": 90,
+					"rotationZ": 45,
+					"children": [
+						{
+							"name": "corkpart54",
+							"from": [-0.85, 0.95, -0.75],
+							"to": [0.65, 1.7, 0.75],
+							"rotationOrigin": [-0.6, 1, -0.5],
+							"faces": {
+								"north": {"texture": "#map", "uv": [10, 0.5, 11.5, 1.25], "autoUv": false, "snapUv": false},
+								"east": {"texture": "#map", "uv": [11, 0.5, 12.5, 1.25], "autoUv": false, "snapUv": false},
+								"south": {"texture": "#map", "uv": [11, 0.5, 12.5, 1.25], "autoUv": false, "snapUv": false},
+								"west": {"texture": "#map", "uv": [12, 0.5, 13.5, 1.25], "autoUv": false, "snapUv": false},
+								"up": {"texture": "#map", "uv": [10.5, 5, 12, 6.5], "autoUv": false, "snapUv": false},
+								"down": {"texture": "#map", "uv": [11, 3, 12.5, 4.5], "autoUv": false, "snapUv": false}
+							}
+						},
+						{
+							"name": "cork54_geo",
+							"from": [-0.6, 0, -0.5],
+							"to": [0.4, 1, 0.5],
+							"rotationOrigin": [-0.6, 0, -0.5],
+							"faces": {
+								"north": {"texture": "#map", "uv": [10, 3.5, 11, 4.5], "autoUv": false, "snapUv": false},
+								"east": {"texture": "#map", "uv": [11.5, 3.5, 12.5, 4.5], "autoUv": false, "snapUv": false},
+								"south": {"texture": "#map", "uv": [10.5, 3.5, 11.5, 4.5], "autoUv": false, "snapUv": false},
+								"west": {"texture": "#map", "uv": [11.5, 3.5, 12.5, 4.5], "autoUv": false, "snapUv": false},
+								"down": {"texture": "#map", "uv": [11.5, 7, 12.5, 8], "autoUv": false, "snapUv": false}
+							},
+							"renderPass": 3
+						}
+					]
+				},
+				{
+					"name": "cork55",
+					"from": [-0.25, 3.2, -3.5],
+					"to": [-0.25, 3.2, -3.5],
+					"rotationOrigin": [-0.25, 3.2, -3.5],
+					"rotationY": -33,
+					"rotationZ": -90,
+					"children": [
+						{
+							"name": "corkpart55",
+							"from": [-0.85, 0.95, -0.75],
+							"to": [0.65, 1.7, 0.75],
+							"rotationOrigin": [-0.6, 1, -0.5],
+							"faces": {
+								"north": {"texture": "#map", "uv": [10, 0.5, 11.5, 1.25], "autoUv": false, "snapUv": false},
+								"east": {"texture": "#map", "uv": [11, 0.5, 12.5, 1.25], "autoUv": false, "snapUv": false},
+								"south": {"texture": "#map", "uv": [11, 0.5, 12.5, 1.25], "autoUv": false, "snapUv": false},
+								"west": {"texture": "#map", "uv": [12, 0.5, 13.5, 1.25], "autoUv": false, "snapUv": false},
+								"up": {"texture": "#map", "uv": [10.5, 5, 12, 6.5], "autoUv": false, "snapUv": false},
+								"down": {"texture": "#map", "uv": [11, 3, 12.5, 4.5], "autoUv": false, "snapUv": false}
+							}
+						},
+						{
+							"name": "cork55_geo",
+							"from": [-0.6, 0, -0.5],
+							"to": [0.4, 1, 0.5],
+							"rotationOrigin": [-0.6, 0, -0.5],
+							"faces": {
+								"north": {"texture": "#map", "uv": [10, 3.5, 11, 4.5], "autoUv": false, "snapUv": false},
+								"east": {"texture": "#map", "uv": [11.5, 3.5, 12.5, 4.5], "autoUv": false, "snapUv": false},
+								"south": {"texture": "#map", "uv": [10.5, 3.5, 11.5, 4.5], "autoUv": false, "snapUv": false},
+								"west": {"texture": "#map", "uv": [11.5, 3.5, 12.5, 4.5], "autoUv": false, "snapUv": false},
+								"down": {"texture": "#map", "uv": [11.5, 7, 12.5, 8], "autoUv": false, "snapUv": false}
+							},
+							"renderPass": 3
+						}
+					]
+				},
+				{
+					"name": "cork56",
+					"from": [3.95, 2.9, 0.9],
+					"to": [3.95, 2.9, 0.9],
+					"rotationOrigin": [3.95, 2.9, 0.9],
+					"rotationZ": 45,
+					"children": [
+						{
+							"name": "corkpart56",
+							"from": [-0.85, 0.95, -0.75],
+							"to": [0.65, 1.7, 0.75],
+							"rotationOrigin": [-0.6, 1, -0.5],
+							"faces": {
+								"north": {"texture": "#map", "uv": [10, 0.5, 11.5, 1.25], "autoUv": false, "snapUv": false},
+								"east": {"texture": "#map", "uv": [11, 0.5, 12.5, 1.25], "autoUv": false, "snapUv": false},
+								"south": {"texture": "#map", "uv": [11, 0.5, 12.5, 1.25], "autoUv": false, "snapUv": false},
+								"west": {"texture": "#map", "uv": [12, 0.5, 13.5, 1.25], "autoUv": false, "snapUv": false},
+								"up": {"texture": "#map", "uv": [10.5, 5, 12, 6.5], "autoUv": false, "snapUv": false},
+								"down": {"texture": "#map", "uv": [11, 3, 12.5, 4.5], "autoUv": false, "snapUv": false}
+							}
+						},
+						{
+							"name": "cork56_geo",
+							"from": [-0.6, 0, -0.5],
+							"to": [0.4, 1, 0.5],
+							"rotationOrigin": [-0.6, 0, -0.5],
+							"faces": {
+								"north": {"texture": "#map", "uv": [10, 3.5, 11, 4.5], "autoUv": false, "snapUv": false},
+								"east": {"texture": "#map", "uv": [11.5, 3.5, 12.5, 4.5], "autoUv": false, "snapUv": false},
+								"south": {"texture": "#map", "uv": [10.5, 3.5, 11.5, 4.5], "autoUv": false, "snapUv": false},
+								"west": {"texture": "#map", "uv": [11.5, 3.5, 12.5, 4.5], "autoUv": false, "snapUv": false},
+								"down": {"texture": "#map", "uv": [11.5, 7, 12.5, 8], "autoUv": false, "snapUv": false}
+							},
+							"renderPass": 3
+						}
+					]
+				},
+				{
+					"name": "cork57",
+					"from": [0.65, 3.35, -1.4],
+					"to": [0.65, 3.35, -1.4],
+					"rotationOrigin": [0.65, 3.35, -1.4],
+					"rotationX": -10,
+					"rotationZ": -67.5,
+					"children": [
+						{
+							"name": "corkpart57",
+							"from": [-0.85, 0.95, -0.75],
+							"to": [0.65, 1.7, 0.75],
+							"rotationOrigin": [-0.6, 1, -0.5],
+							"faces": {
+								"north": {"texture": "#map", "uv": [10, 0.5, 11.5, 1.25], "autoUv": false, "snapUv": false},
+								"east": {"texture": "#map", "uv": [11, 0.5, 12.5, 1.25], "autoUv": false, "snapUv": false},
+								"south": {"texture": "#map", "uv": [11, 0.5, 12.5, 1.25], "autoUv": false, "snapUv": false},
+								"west": {"texture": "#map", "uv": [12, 0.5, 13.5, 1.25], "autoUv": false, "snapUv": false},
+								"up": {"texture": "#map", "uv": [10.5, 5, 12, 6.5], "autoUv": false, "snapUv": false},
+								"down": {"texture": "#map", "uv": [11, 3, 12.5, 4.5], "autoUv": false, "snapUv": false}
+							}
+						},
+						{
+							"name": "cork57_geo",
+							"from": [-0.6, 0, -0.5],
+							"to": [0.4, 1, 0.5],
+							"rotationOrigin": [-0.6, 0, -0.5],
+							"faces": {
+								"north": {"texture": "#map", "uv": [10, 3.5, 11, 4.5], "autoUv": false, "snapUv": false},
+								"east": {"texture": "#map", "uv": [11.5, 3.5, 12.5, 4.5], "autoUv": false, "snapUv": false},
+								"south": {"texture": "#map", "uv": [10.5, 3.5, 11.5, 4.5], "autoUv": false, "snapUv": false},
+								"west": {"texture": "#map", "uv": [11.5, 3.5, 12.5, 4.5], "autoUv": false, "snapUv": false},
+								"down": {"texture": "#map", "uv": [11.5, 7, 12.5, 8], "autoUv": false, "snapUv": false}
+							},
+							"renderPass": 3
+						}
+					]
+				},
+				{
+					"name": "cork58",
+					"from": [-0.55, 3.35, -0.7],
+					"to": [-0.55, 3.35, -0.7],
+					"rotationOrigin": [-0.55, 3.35, -0.7],
+					"rotationX": 45,
+					"rotationY": -45,
+					"rotationZ": 22.5,
+					"children": [
+						{
+							"name": "corkpart58",
+							"from": [-0.85, 0.95, -0.75],
+							"to": [0.65, 1.7, 0.75],
+							"rotationOrigin": [-0.6, 1, -0.5],
+							"faces": {
+								"north": {"texture": "#map", "uv": [10, 0.5, 11.5, 1.25], "autoUv": false, "snapUv": false},
+								"east": {"texture": "#map", "uv": [11, 0.5, 12.5, 1.25], "autoUv": false, "snapUv": false},
+								"south": {"texture": "#map", "uv": [11, 0.5, 12.5, 1.25], "autoUv": false, "snapUv": false},
+								"west": {"texture": "#map", "uv": [12, 0.5, 13.5, 1.25], "autoUv": false, "snapUv": false},
+								"up": {"texture": "#map", "uv": [10.5, 5, 12, 6.5], "autoUv": false, "snapUv": false},
+								"down": {"texture": "#map", "uv": [11, 3, 12.5, 4.5], "autoUv": false, "snapUv": false}
+							}
+						},
+						{
+							"name": "cork58_geo",
+							"from": [-0.6, 0, -0.5],
+							"to": [0.4, 1, 0.5],
+							"rotationOrigin": [-0.6, 0, -0.5],
+							"faces": {
+								"north": {"texture": "#map", "uv": [10, 3.5, 11, 4.5], "autoUv": false, "snapUv": false},
+								"east": {"texture": "#map", "uv": [11.5, 3.5, 12.5, 4.5], "autoUv": false, "snapUv": false},
+								"south": {"texture": "#map", "uv": [10.5, 3.5, 11.5, 4.5], "autoUv": false, "snapUv": false},
+								"west": {"texture": "#map", "uv": [11.5, 3.5, 12.5, 4.5], "autoUv": false, "snapUv": false},
+								"down": {"texture": "#map", "uv": [11.5, 7, 12.5, 8], "autoUv": false, "snapUv": false}
+							},
+							"renderPass": 3
+						}
+					]
+				},
+				{
+					"name": "cork59",
+					"from": [0.15, 3.95, -1.6],
+					"to": [0.15, 3.95, -1.6],
+					"rotationOrigin": [0.15, 3.95, -1.6],
+					"rotationX": -50,
+					"rotationY": 45,
+					"children": [
+						{
+							"name": "corkpart59",
+							"from": [-0.85, 0.95, -0.75],
+							"to": [0.65, 1.7, 0.75],
+							"rotationOrigin": [-0.6, 1, -0.5],
+							"faces": {
+								"north": {"texture": "#map", "uv": [10, 0.5, 11.5, 1.25], "autoUv": false, "snapUv": false},
+								"east": {"texture": "#map", "uv": [11, 0.5, 12.5, 1.25], "autoUv": false, "snapUv": false},
+								"south": {"texture": "#map", "uv": [11, 0.5, 12.5, 1.25], "autoUv": false, "snapUv": false},
+								"west": {"texture": "#map", "uv": [12, 0.5, 13.5, 1.25], "autoUv": false, "snapUv": false},
+								"up": {"texture": "#map", "uv": [10.5, 5, 12, 6.5], "autoUv": false, "snapUv": false},
+								"down": {"texture": "#map", "uv": [11, 3, 12.5, 4.5], "autoUv": false, "snapUv": false}
+							}
+						},
+						{
+							"name": "cork59_geo",
+							"from": [-0.6, 0, -0.5],
+							"to": [0.4, 1, 0.5],
+							"rotationOrigin": [-0.6, 0, -0.5],
+							"faces": {
+								"north": {"texture": "#map", "uv": [10, 3.5, 11, 4.5], "autoUv": false, "snapUv": false},
+								"east": {"texture": "#map", "uv": [11.5, 3.5, 12.5, 4.5], "autoUv": false, "snapUv": false},
+								"south": {"texture": "#map", "uv": [10.5, 3.5, 11.5, 4.5], "autoUv": false, "snapUv": false},
+								"west": {"texture": "#map", "uv": [11.5, 3.5, 12.5, 4.5], "autoUv": false, "snapUv": false},
+								"down": {"texture": "#map", "uv": [11.5, 7, 12.5, 8], "autoUv": false, "snapUv": false}
+							},
+							"renderPass": 3
+						}
+					]
+				},
+				{
+					"name": "cork60",
+					"from": [1.75, 5.65, 1.9],
+					"to": [1.75, 5.65, 1.9],
+					"rotationOrigin": [1.75, 5.65, 1.9],
+					"rotationX": -112.5,
+					"rotationY": -90,
+					"rotationZ": 45,
+					"children": [
+						{
+							"name": "corkpart60",
+							"from": [-0.85, 0.95, -0.75],
+							"to": [0.65, 1.7, 0.75],
+							"rotationOrigin": [-0.6, 1, -0.5],
+							"faces": {
+								"north": {"texture": "#map", "uv": [10, 0.5, 11.5, 1.25], "autoUv": false, "snapUv": false},
+								"east": {"texture": "#map", "uv": [11, 0.5, 12.5, 1.25], "autoUv": false, "snapUv": false},
+								"south": {"texture": "#map", "uv": [11, 0.5, 12.5, 1.25], "autoUv": false, "snapUv": false},
+								"west": {"texture": "#map", "uv": [12, 0.5, 13.5, 1.25], "autoUv": false, "snapUv": false},
+								"up": {"texture": "#map", "uv": [10.5, 5, 12, 6.5], "autoUv": false, "snapUv": false},
+								"down": {"texture": "#map", "uv": [11, 3, 12.5, 4.5], "autoUv": false, "snapUv": false}
+							}
+						},
+						{
+							"name": "cork60_geo",
+							"from": [-0.6, 0, -0.5],
+							"to": [0.4, 1, 0.5],
+							"rotationOrigin": [-0.6, 0, -0.5],
+							"faces": {
+								"north": {"texture": "#map", "uv": [10, 3.5, 11, 4.5], "autoUv": false, "snapUv": false},
+								"east": {"texture": "#map", "uv": [11.5, 3.5, 12.5, 4.5], "autoUv": false, "snapUv": false},
+								"south": {"texture": "#map", "uv": [10.5, 3.5, 11.5, 4.5], "autoUv": false, "snapUv": false},
+								"west": {"texture": "#map", "uv": [11.5, 3.5, 12.5, 4.5], "autoUv": false, "snapUv": false},
+								"down": {"texture": "#map", "uv": [11.5, 7, 12.5, 8], "autoUv": false, "snapUv": false}
+							},
+							"renderPass": 3
+						}
+					]
+				},
+				{
+					"name": "cork61",
+					"from": [0.85, 4.95, -1.8],
+					"to": [0.85, 4.95, -1.8],
+					"rotationOrigin": [0.85, 4.95, -1.8],
+					"rotationX": 77.5,
+					"rotationY": 10,
+					"children": [
+						{
+							"name": "corkpart61",
+							"from": [-0.85, 0.95, -0.75],
+							"to": [0.65, 1.7, 0.75],
+							"rotationOrigin": [-0.6, 1, -0.5],
+							"faces": {
+								"north": {"texture": "#map", "uv": [10, 0.5, 11.5, 1.25], "autoUv": false, "snapUv": false},
+								"east": {"texture": "#map", "uv": [11, 0.5, 12.5, 1.25], "autoUv": false, "snapUv": false},
+								"south": {"texture": "#map", "uv": [11, 0.5, 12.5, 1.25], "autoUv": false, "snapUv": false},
+								"west": {"texture": "#map", "uv": [12, 0.5, 13.5, 1.25], "autoUv": false, "snapUv": false},
+								"up": {"texture": "#map", "uv": [10.5, 5, 12, 6.5], "autoUv": false, "snapUv": false},
+								"down": {"texture": "#map", "uv": [11, 3, 12.5, 4.5], "autoUv": false, "snapUv": false}
+							}
+						},
+						{
+							"name": "cork61_geo",
+							"from": [-0.6, 0, -0.5],
+							"to": [0.4, 1, 0.5],
+							"rotationOrigin": [-0.6, 0, -0.5],
+							"faces": {
+								"north": {"texture": "#map", "uv": [10, 3.5, 11, 4.5], "autoUv": false, "snapUv": false},
+								"east": {"texture": "#map", "uv": [11.5, 3.5, 12.5, 4.5], "autoUv": false, "snapUv": false},
+								"south": {"texture": "#map", "uv": [10.5, 3.5, 11.5, 4.5], "autoUv": false, "snapUv": false},
+								"west": {"texture": "#map", "uv": [11.5, 3.5, 12.5, 4.5], "autoUv": false, "snapUv": false},
+								"down": {"texture": "#map", "uv": [11.5, 7, 12.5, 8], "autoUv": false, "snapUv": false}
+							},
+							"renderPass": 3
+						}
+					]
+				},
+				{
+					"name": "cork62",
+					"from": [0.55, 5.45, 2],
+					"to": [0.55, 5.45, 2],
+					"rotationOrigin": [0.55, 5.45, 2],
+					"rotationX": -102.5,
+					"children": [
+						{
+							"name": "corkpart62",
+							"from": [-0.85, 0.95, -0.75],
+							"to": [0.65, 1.7, 0.75],
+							"rotationOrigin": [-0.6, 1, -0.5],
+							"faces": {
+								"north": {"texture": "#map", "uv": [10, 0.5, 11.5, 1.25], "autoUv": false, "snapUv": false},
+								"east": {"texture": "#map", "uv": [11, 0.5, 12.5, 1.25], "autoUv": false, "snapUv": false},
+								"south": {"texture": "#map", "uv": [11, 0.5, 12.5, 1.25], "autoUv": false, "snapUv": false},
+								"west": {"texture": "#map", "uv": [12, 0.5, 13.5, 1.25], "autoUv": false, "snapUv": false},
+								"up": {"texture": "#map", "uv": [10.5, 5, 12, 6.5], "autoUv": false, "snapUv": false},
+								"down": {"texture": "#map", "uv": [11, 3, 12.5, 4.5], "autoUv": false, "snapUv": false}
+							}
+						},
+						{
+							"name": "cork62_geo",
+							"from": [-0.6, 0, -0.5],
+							"to": [0.4, 1, 0.5],
+							"rotationOrigin": [-0.6, 0, -0.5],
+							"faces": {
+								"north": {"texture": "#map", "uv": [10, 3.5, 11, 4.5], "autoUv": false, "snapUv": false},
+								"east": {"texture": "#map", "uv": [11.5, 3.5, 12.5, 4.5], "autoUv": false, "snapUv": false},
+								"south": {"texture": "#map", "uv": [10.5, 3.5, 11.5, 4.5], "autoUv": false, "snapUv": false},
+								"west": {"texture": "#map", "uv": [11.5, 3.5, 12.5, 4.5], "autoUv": false, "snapUv": false},
+								"down": {"texture": "#map", "uv": [11.5, 7, 12.5, 8], "autoUv": false, "snapUv": false}
+							},
+							"renderPass": 3
+						}
+					]
+				},
+				{
+					"name": "cork63",
+					"from": [-1.45, 4.85, 1.6],
+					"to": [-1.45, 4.85, 1.6],
+					"rotationOrigin": [-1.45, 4.85, 1.6],
+					"rotationX": -67.5,
+					"rotationY": -22.5,
+					"rotationZ": -22.5,
+					"children": [
+						{
+							"name": "corkpart63",
+							"from": [-0.85, 0.95, -0.75],
+							"to": [0.65, 1.7, 0.75],
+							"rotationOrigin": [-0.6, 1, -0.5],
+							"faces": {
+								"north": {"texture": "#map", "uv": [10, 0.5, 11.5, 1.25], "autoUv": false, "snapUv": false},
+								"east": {"texture": "#map", "uv": [11, 0.5, 12.5, 1.25], "autoUv": false, "snapUv": false},
+								"south": {"texture": "#map", "uv": [11, 0.5, 12.5, 1.25], "autoUv": false, "snapUv": false},
+								"west": {"texture": "#map", "uv": [12, 0.5, 13.5, 1.25], "autoUv": false, "snapUv": false},
+								"up": {"texture": "#map", "uv": [10.5, 5, 12, 6.5], "autoUv": false, "snapUv": false},
+								"down": {"texture": "#map", "uv": [11, 3, 12.5, 4.5], "autoUv": false, "snapUv": false}
+							}
+						},
+						{
+							"name": "cork63_geo",
+							"from": [-0.6, 0, -0.5],
+							"to": [0.4, 1, 0.5],
+							"rotationOrigin": [-0.6, 0, -0.5],
+							"faces": {
+								"north": {"texture": "#map", "uv": [10, 3.5, 11, 4.5], "autoUv": false, "snapUv": false},
+								"east": {"texture": "#map", "uv": [11.5, 3.5, 12.5, 4.5], "autoUv": false, "snapUv": false},
+								"south": {"texture": "#map", "uv": [10.5, 3.5, 11.5, 4.5], "autoUv": false, "snapUv": false},
+								"west": {"texture": "#map", "uv": [11.5, 3.5, 12.5, 4.5], "autoUv": false, "snapUv": false},
+								"down": {"texture": "#map", "uv": [11.5, 7, 12.5, 8], "autoUv": false, "snapUv": false}
+							},
+							"renderPass": 3
+						}
+					]
+				},
+				{
+					"name": "cork64",
+					"from": [0.35, 7.55, 0.15],
+					"to": [0.35, 7.55, 0.15],
+					"rotationOrigin": [0.35, 7.55, 0.15],
+					"rotationX": -12.5,
+					"rotationZ": 180,
+					"children": [
+						{
+							"name": "corkpart64",
+							"from": [-0.85, 0.95, -0.75],
+							"to": [0.65, 1.7, 0.75],
+							"rotationOrigin": [-0.6, 1, -0.5],
+							"faces": {
+								"north": {"texture": "#map", "uv": [10, 0.5, 11.5, 1.25], "autoUv": false, "snapUv": false},
+								"east": {"texture": "#map", "uv": [11, 0.5, 12.5, 1.25], "autoUv": false, "snapUv": false},
+								"south": {"texture": "#map", "uv": [11, 0.5, 12.5, 1.25], "autoUv": false, "snapUv": false},
+								"west": {"texture": "#map", "uv": [12, 0.5, 13.5, 1.25], "autoUv": false, "snapUv": false},
+								"up": {"texture": "#map", "uv": [10.5, 5, 12, 6.5], "autoUv": false, "snapUv": false},
+								"down": {"texture": "#map", "uv": [11, 3, 12.5, 4.5], "autoUv": false, "snapUv": false}
+							}
+						},
+						{
+							"name": "cork64_geo",
+							"from": [-0.6, 0, -0.5],
+							"to": [0.4, 1, 0.5],
+							"rotationOrigin": [-0.6, 0, -0.5],
+							"faces": {
+								"north": {"texture": "#map", "uv": [10, 3.5, 11, 4.5], "autoUv": false, "snapUv": false},
+								"east": {"texture": "#map", "uv": [11.5, 3.5, 12.5, 4.5], "autoUv": false, "snapUv": false},
+								"south": {"texture": "#map", "uv": [10.5, 3.5, 11.5, 4.5], "autoUv": false, "snapUv": false},
+								"west": {"texture": "#map", "uv": [11.5, 3.5, 12.5, 4.5], "autoUv": false, "snapUv": false},
+								"down": {"texture": "#map", "uv": [11.5, 7, 12.5, 8], "autoUv": false, "snapUv": false}
+							},
+							"renderPass": 3
+						}
+					]
+				}
+			]
+		}
+	],
+	"animations": []
+}
