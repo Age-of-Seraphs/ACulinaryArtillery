@@ -5,7 +5,7 @@
 		{ "code": "color", "states": [ "green", "blue", "brown", "pink", "plain", "quartz", "red", "smoky", "vintage", "violet", "yellow" ] },
 		{ "code": "type", "states": [ "fired", "corked" ] }
 	],
-	"class": "BlockBottle",
+	"class": "BlockThrowableBottle",
 	"creativeinventory": { "general": [ "*" ], "aculinaryartillery": ["*"] },
 	"attributes": {
 		"shelvable": true,
